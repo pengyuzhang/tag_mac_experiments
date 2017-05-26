@@ -1,0 +1,3 @@
+CKID0001:@|S:main_clock_0.clock_out@|E:modulator_0.output_signal@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:modulator_0.output_signal@|E:data_source_0.data_index[7]@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002 
+CKID0003:@|S:pll_core_0.Core@|E:main_clock_0.counter[7]@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 

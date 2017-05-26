@@ -1,0 +1,44 @@
+*****************************************************************
+Pin Report - Date: Wed Jan 25 18:03:12 2017 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.5
+Version: 11.5.0.26
+Design Name: Top
+Family: IGLOO
+Die: AGLN250V2
+Package: 100 VQFP
+*****************************************************************
+
+-----------------------------------------------------------------
+Flash*Freeze information
+        Pin name  : 27
+        Pin usage : Available as a regular pin
+-----------------------------------------------------------------
+
+Port               |Pin |Fixed |Function      |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Output Load (pF) |Use I/O Reg |Hot Swappable |Schmitt Trigger |Hold previous I/O state in Flash*Freeze mode |
+-------------------|----|------|--------------|---------|------------------|-----|--------------|-----------------|------------|--------------|----------------|---------------------------------------------|
+clock               15   Yes    GFA1/IO58RSB3  LVCMOS12  ---                ---   None           ---               No           No             No               No
+mac_control_signal  96   Yes    GAB0/IO02RSB0  LVCMOS12  ---                ---   None           ---               No           No             No               No
+output_signal[0]    90   Yes    IO08RSB0       LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[1]    86   Yes    IO09RSB0       LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[2]    85   Yes    IO10RSB0       LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[3]    84   Yes    IO11RSB0       LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[4]    83   Yes    IO12RSB0       LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[5]    82   Yes    IO13RSB0       LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[6]    81   Yes    GBC0/IO14RSB0  LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[7]    80   Yes    GBC1/IO15RSB0  LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[8]    79   Yes    GBB0/IO16RSB0  LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[9]    78   Yes    GBB1/IO17RSB0  LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[10]   77   Yes    GBA0/IO18RSB0  LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[11]   76   Yes    GBA1/IO19RSB0  LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[12]   73   Yes    GBA2/IO20RSB1  LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[13]   72   Yes    IO21RSB1       LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[14]   71   Yes    GBB2/IO22RSB1  LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[15]   70   Yes    GBC2/IO23RSB1  LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[16]   69   Yes    IO24RSB1       LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[17]   65   Yes    GCC1/IO25RSB1  LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[18]   64   Yes    GCC0/IO26RSB1  LVCMOS12  2                  High  None           5                 No           No             ---              No
+output_signal[19]   63   Yes    GCA0/IO28RSB1  LVCMOS12  2                  High  None           5                 No           No             ---              No
+reset               10   Yes    GFB1/IO60RSB3  LVCMOS12  ---                ---   None           ---               No           No             No               No
+signal_into_switch  98   Yes    GAA0/IO00RSB0  LVCMOS12  2                  High  None           5                 No           No             ---              No
+trigger_signal      97   Yes    GAA1/IO01RSB0  LVCMOS12  ---                ---   None           ---               No           No             No               No
