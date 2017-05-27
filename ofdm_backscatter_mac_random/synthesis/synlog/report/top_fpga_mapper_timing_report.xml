@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synlog\top_fpga_mapper.srr</data>
+<data>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\top_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -17,14 +17,14 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>main_clock|clock_out_inferred_clock</data>
 <data>1.0 MHz</data>
-<data>23.0 MHz</data>
-<data>956.612</data>
+<data>22.8 MHz</data>
+<data>956.203</data>
 </row>
 <row>
 <data>modulator|output_signal_inferred_clock</data>
 <data>1.0 MHz</data>
-<data>24.4 MHz</data>
-<data>959.093</data>
+<data>47.5 MHz</data>
+<data>978.943</data>
 </row>
 <row>
 <data>pll_core|GLA_inferred_clock</data>

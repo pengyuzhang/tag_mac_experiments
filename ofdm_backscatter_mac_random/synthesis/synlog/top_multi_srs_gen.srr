@@ -1,10 +1,12 @@
-Synopsys Netlist Linker, version comp201403sp1p1, Build 095R, built Oct  9 2014
-@N|Running in 32-bit mode
-File Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synwork\top_comp.srs changed - recompiling
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+File Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synwork\top_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 36MB peak: 37MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Jan 25 18:02:03 2017
+
+Process completed successfully.
+# Fri May 26 16:34:36 2017
 
 ###########################################################]

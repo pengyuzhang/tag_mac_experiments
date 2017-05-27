@@ -1,15 +1,16 @@
 Microsemi Libero Software
-Version: 11.5.0.26
-Release: v11.5
+Version: 11.8.0.26
+Release: v11.8
 
-Info: The design top.adb was last modified by software version 11.5.0.26.
+Info: The design top.adb was last modified by software version 11.8.0.26.
 Opened an existing Libero design top.adb.
 'BA_NAME' set to 'top_ba'
 'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
 'IDE_DESIGNERVIEW_COUNT' set to '1'
 'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
 'IDE_DESIGNERVIEW_REVNUM0' set to '1'
-'IDE_DESIGNERVIEW_ROOTDIR' set to 'Z:\fpga_vision\ofdm_backscatter_mac_random\designer'
+'IDE_DESIGNERVIEW_ROOTDIR' set to
+'Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\designer'
 'IDE_DESIGNERVIEW_LASTREV' set to '1'
 ***** Layout Variables *********************************************
 
@@ -32,25 +33,25 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Wed Jan 25 18:02:54 2017
+Timing-driven Placer Started: Fri May 26 16:35:44 2017
 
-Placer Finished: Wed Jan 25 18:02:58 2017
-Total Placer CPU Time:     00:00:04
+Placer Finished: Fri May 26 16:35:47 2017
+Total Placer CPU Time:     00:00:03
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: top                             Started: Wed Jan 25 18:03:01 2017
+Design: top                             Started: Fri May 26 16:35:50 2017
 
  
 
 Timing-driven Router completed successfully.
 
 Design: top                             
-Finished: Wed Jan 25 18:03:08 2017
-Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:07
-Total Memory Usage: 153.5 Mbytes
+Finished: Fri May 26 16:35:58 2017
+Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:08
+Total Memory Usage: 158.3 Mbytes
                         o - o - o - o - o - o
 
 Loading the Timing data for the design.
@@ -58,7 +59,7 @@ Finished loading the Timing data.
 TIMER: Max delay timing requirements have been met.
 TIMER: Min delay timing requirements have been met.
 
-The Layout command succeeded ( 00:00:19 )
+The Layout command succeeded ( 00:00:20 )
 Wrote status report to file: top_place_and_route_report.txt
 
 The Report command succeeded ( 00:00:00 )
@@ -77,7 +78,8 @@ The Report command succeeded ( 00:00:01 )
 Wrote pin report to file: top_report_pin_bynumber.txt
 
 The Report command succeeded ( 00:00:01 )
-Design saved to file Z:\fpga_vision\ofdm_backscatter_mac_random\designer\impl1\top.adb.
+Design saved to file
+Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\designer\impl1\top.adb.
 
 The Execute Script command succeeded ( 00:00:23 )
 Design closed.

@@ -1,19 +1,22 @@
 Microsemi Libero Software
-Version: 11.5.0.26
-Release: v11.5
+Version: 11.8.0.26
+Release: v11.8
 
-Info: The design Z:/fpga_vision/ofdm_backscatter_mac_random/designer/impl1/top.adb was last
-      modified by software version 11.5.0.26.
+Info: The design
+      Z:/Desktop/tag_mac_experiments/ofdm_backscatter_mac_random/designer/impl1/top.adb was last
+      modified by software version 11.8.0.26.
 Opened an existing Libero design
-Z:/fpga_vision/ofdm_backscatter_mac_random/designer/impl1/top.adb.
+Z:/Desktop/tag_mac_experiments/ofdm_backscatter_mac_random/designer/impl1/top.adb.
 
-The Export-map command succeeded ( 00:00:15 )
-Wrote to the file: Z:\fpga_vision\ofdm_backscatter_mac_random\designer\impl1\top.pdb
-CHECKSUM: D17D
+The Export-map command succeeded ( 00:00:12 )
+Wrote to the file:
+Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\designer\impl1\top.pdb
+CHECKSUM: 9562
 
-The Generate programming file command succeeded ( 00:00:16 )
-Design saved to file Z:/fpga_vision/ofdm_backscatter_mac_random/designer/impl1/top.adb.
+The Generate programming file command succeeded ( 00:00:14 )
+Design saved to file
+Z:/Desktop/tag_mac_experiments/ofdm_backscatter_mac_random/designer/impl1/top.adb.
 
-The Execute Script command succeeded ( 00:00:19 )
+The Execute Script command succeeded ( 00:00:16 )
 Design closed.
 

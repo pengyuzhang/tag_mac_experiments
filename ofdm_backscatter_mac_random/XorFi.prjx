@@ -31,7 +31,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "Z:\Desktop\ofdm_backscatter_mac_random"
+KEY ProjectLocation "Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random"
 KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VERILOG"
@@ -54,18 +54,18 @@ SIZE="413"
 ENDFILE
 VALUE "<project>\component\work\top\top.cxf,actgen_cxf"
 STATE="utd"
-TIME="1485385311"
+TIME="1495841661"
 SIZE="2850"
 ENDFILE
 VALUE "<project>\component\work\top\top.v,hdl"
 STATE="utd"
-TIME="1485385310"
+TIME="1495841660"
 SIZE="4557"
 PARENT="<project>\component\work\top\top.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\designer\impl1\top.adb,adb"
-STATE="utd"
+STATE="ood"
 TIME="1485385437"
 SIZE="1698304"
 ENDFILE
@@ -75,24 +75,24 @@ TIME="1485385437"
 SIZE="965"
 ENDFILE
 VALUE "<project>\designer\impl1\top.pdb,pdb"
-STATE="utd"
-TIME="1485385545"
-SIZE="58843"
+STATE="ood"
+TIME="1495840388"
+SIZE="53609"
 ENDFILE
 VALUE "<project>\designer\impl1\top_ba.sdf,ba_sdf"
-STATE="utd"
+STATE="ood"
 TIME="1485385406"
 SIZE="366044"
 ENDFILE
 VALUE "<project>\designer\impl1\top_ba.v,ba_hdl"
-STATE="utd"
-TIME="1485385406"
-SIZE="172076"
+STATE="ood"
+TIME="1495840352"
+SIZE="121221"
 ENDFILE
 VALUE "<project>\designer\impl1\top_ba_log.rpt,log"
 STATE="utd"
-TIME="1485385406"
-SIZE="770"
+TIME="1495840352"
+SIZE="804"
 ENDFILE
 VALUE "<project>\designer\impl1\top_compile_log.rpt,log"
 STATE="utd"
@@ -106,18 +106,18 @@ SIZE="58843"
 ENDFILE
 VALUE "<project>\designer\impl1\top_fp\top.pro,pro"
 STATE="utd"
-TIME="1485385545"
-SIZE="2609"
+TIME="1495818865"
+SIZE="2597"
 ENDFILE
 VALUE "<project>\designer\impl1\top_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1485385394"
-SIZE="2481"
+TIME="1495840336"
+SIZE="2515"
 ENDFILE
 VALUE "<project>\designer\impl1\top_prgdata_log.rpt,log"
 STATE="utd"
-TIME="1485385438"
-SIZE="682"
+TIME="1495840388"
+SIZE="755"
 ENDFILE
 VALUE "<project>\designer\impl1\top_timingconstraints_log.rpt,log"
 STATE="utd"
@@ -126,8 +126,8 @@ SIZE="364"
 ENDFILE
 VALUE "<project>\designer\impl1\top_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1485385416"
-SIZE="1120"
+TIME="1495840366"
+SIZE="1154"
 ENDFILE
 VALUE "<project>\hdl\baseband_signal.v,hdl"
 STATE="utd"
@@ -156,8 +156,8 @@ SIZE="2611"
 ENDFILE
 VALUE "<project>\hdl\data_source.v,hdl"
 STATE="utd"
-TIME="1485385300"
-SIZE="11908"
+TIME="1495841638"
+SIZE="10410"
 ENDFILE
 VALUE "<project>\hdl\dbpsk_modulator.v,hdl"
 STATE="utd"
@@ -313,7 +313,7 @@ TIME="1484007129"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\top.edn,syn_edn"
-STATE="utd"
+STATE="ood"
 TIME="1485385330"
 SIZE="343219"
 ENDFILE
@@ -328,14 +328,14 @@ TIME="1457226623"
 SIZE="19556"
 ENDFILE
 VALUE "<project>\synthesis\top_sdc.sdc,syn_sdc"
-STATE="utd"
+STATE="ood"
 TIME="1485385330"
 SIZE="310"
 ENDFILE
 VALUE "<project>\synthesis\top_syn.prj,prj"
 STATE="utd"
-TIME="1485385331"
-SIZE="2025"
+TIME="1495818865"
+SIZE="1993"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -348,10 +348,7 @@ VALUE "<project>\stimulus\top_tb.v,tb_hdl"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
-LiberoState=Post_Layout
 ideSTIMULUS=StateSuccess
-ideSYNTHESIS(<project>\synthesis\top.edn,syn_edn)=StateSuccess
-ideDESIGNER(<project>\designer\impl1\top.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -360,10 +357,6 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
-ENDLIST
-LIST PinReports
-VALUE "<project>\designer\impl1\top_report_pin_byname.txt,log"
-VALUE "<project>\designer\impl1\top_report_pin_bynumber.txt,log"
 ENDLIST
 ENDLIST
 ENDLIST
@@ -439,8 +432,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -475,10 +468,7 @@ ENDLIST
 LIST ProjectState5.1
 LIST "top::work"
 LIST Impl1
-LiberoState=Post_Layout
 ideSTIMULUS=StateSuccess
-ideSYNTHESIS(<project>\synthesis\top.edn,syn_edn)=StateSuccess
-ideDESIGNER(<project>\designer\impl1\top.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -501,10 +491,12 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-HDL;hdl\whitening.v;0
-HDL;hdl\dbpsk_modulator.v;0
 Reports;Reports;0
 ReportsCurrentItem;Program Device:top_program.log
+HDL;hdl\switching_circuit.v;0
+HDL;stimulus\top_tb.v;0
+HDL;hdl\whitening.v;0
+HDL;hdl\dbpsk_modulator.v;0
 HDL;hdl\data_source.v;0
 SmartDesign;top;0
 HDL;hdl\data_rate.v;0
@@ -513,8 +505,6 @@ HDL;hdl\baseband_signal.v;0
 HDL;hdl\tag_ant_control.v;0
 HDL;hdl\modulator.v;0
 StartPage;StartPage;0
-HDL;stimulus\top_tb.v;0
-HDL;hdl\switching_circuit.v;0
 ACTIVEVIEW;top
 ENDLIST
 LIST ModuleSubBlockList

@@ -11,123 +11,39 @@
     <hdl-type>Verilog</hdl-type>
     <project-description>
     </project-description>
-    <location>Z:/fpga_vision/ofdm_backscatter_mac_random/component/work/top</location>
-    <state>GENERATED ( Wed Jan 25 18:01:51 2017 )</state>
+    <location>Z:/Desktop/tag_mac_experiments/ofdm_backscatter_mac_random/component/work/top</location>
+    <state>GENERATED ( Fri May 26 16:34:21 2017 )</state>
     <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
   </project-settings>
   <site-map>
   </site-map>
   <fileset>
     <name>HDL File(s)</name>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\component\work\top\top.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\baseband_signal.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\clock_divider.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\counter_tmp.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\data_dqpsk_generator.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\data_rate.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\data_source.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\dbpsk_modulator.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\dqpsk_modulator.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\main_clock.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\modulator.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\phaser_modulator.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\sigen_trigger.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\switching_circuit.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\tag_ant_control.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\ten_mhz_clock.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\trigger_signal_gen.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\two_mhz_clock.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\hdl\whitening.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\smartgen\delay\delay.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\smartgen\delay_five_ns\delay_five_ns.v</file>
-    <file>Z:\fpga_vision\ofdm_backscatter_mac_random\smartgen\pll_core\pll_core.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\component\work\top\top.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\baseband_signal.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\clock_divider.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\counter_tmp.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_dqpsk_generator.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_rate.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\dbpsk_modulator.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\dqpsk_modulator.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\main_clock.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\modulator.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\phaser_modulator.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\sigen_trigger.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\switching_circuit.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\tag_ant_control.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\ten_mhz_clock.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\trigger_signal_gen.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\two_mhz_clock.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\whitening.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\smartgen\delay\delay.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\smartgen\delay_five_ns\delay_five_ns.v</file>
+    <file>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\smartgen\pll_core\pll_core.v</file>
   </fileset>
   <io>
-    <port-name>output_signal[3]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
-    <port-name>output_signal[18]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
-    <port-name>output_signal[10]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
-    <port-name>output_signal[8]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
-    <port-name>output_signal[2]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
-    <port-name>output_signal[16]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
-    <port-name>output_signal[9]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
-    <port-name>output_signal[1]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
-    <port-name>output_signal[13]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
-    <port-name>clock</port-name>
-    <direction>IN</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
-    <port-name>output_signal[5]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
     <port-name>output_signal[4]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
-    <port-name>output_signal[15]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
-    <port-name>signal_into_switch</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
-    <port-name>output_signal[12]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
@@ -145,7 +61,91 @@
     <io-standard>LVCMOS12</io-standard>
   </io>
   <io>
-    <port-name>output_signal[0]</port-name>
+    <port-name>output_signal[9]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>output_signal[3]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>output_signal[17]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>output_signal[10]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>output_signal[2]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>output_signal[14]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>clock</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>output_signal[6]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>output_signal[5]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>output_signal[16]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>signal_into_switch</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>output_signal[13]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>mac_control_signal</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>output_signal[12]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>output_signal[1]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
@@ -157,13 +157,7 @@
     <io-standard>LVCMOS12</io-standard>
   </io>
   <io>
-    <port-name>output_signal[17]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
-    <port-name>output_signal[6]</port-name>
+    <port-name>output_signal[18]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
@@ -175,20 +169,26 @@
     <io-standard>LVCMOS12</io-standard>
   </io>
   <io>
+    <port-name>output_signal[8]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
     <port-name>trigger_signal</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
   </io>
   <io>
-    <port-name>output_signal[14]</port-name>
+    <port-name>output_signal[15]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
   </io>
   <io>
-    <port-name>mac_control_signal</port-name>
-    <direction>IN</direction>
+    <port-name>output_signal[0]</port-name>
+    <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
   </io>
@@ -224,7 +224,7 @@
   <core type="ComponentModule">
     <core-type>ComponentModule</core-type>
     <core-exttype>SmartGen</core-exttype>
-    <core-location>Z:/fpga_vision/ofdm_backscatter_mac_random/smartgen/pll_core</core-location>
+    <core-location>Z:/Desktop/tag_mac_experiments/ofdm_backscatter_mac_random/smartgen/pll_core</core-location>
     <core-name>pll_core_0</core-name>
   </core>
   <core type="HdlModule">

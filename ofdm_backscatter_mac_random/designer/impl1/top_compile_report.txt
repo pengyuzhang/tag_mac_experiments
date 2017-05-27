@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Wed Jan 25 18:02:28 2017 ***************************************************************************
+                          Fri May 26 16:35:21 2017 ***************************************************************************
 
 Product: Designer
-Release: v11.5
-Version: 11.5.0.26
-File Name: Z:\fpga_vision\ofdm_backscatter_mac_random\designer\impl1\top.adb
+Release: v11.8
+Version: 11.8.0.26
+File Name: Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\designer\impl1\top.adb
 Design Name: Top  Design State: compile
-Last Saved: Wed Jan 25 17:54:06 2017
+Last Saved: Fri May 26 16:13:08 2017
 
 ***** Device Data **************************************************
 
@@ -22,8 +22,8 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Wed Jan 25 18:02:23 2017:
-        Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.edn
+Source File(s) Imported on Fri May 26 16:35:17 2017:
+        Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.edn
 
 
 ***** CAE Variables ************************************************
@@ -49,7 +49,7 @@ Parameters used to run compile:
 Family      : IGLOO
 Device      : AGLN250V2
 Package     : 100 VQFP
-Source      : Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.edn
+Source      : Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.edn
 Format      : EDIF
 Topcell     : top
 Speed grade : STD
@@ -90,9 +90,9 @@ Optimized macros:
   - Buffers:                1
   - Inverters:              0
   - Tieoff:                 0
-  - Logic combining:        14
+  - Logic combining:        7
 
-    Total macros optimized  15
+    Total macros optimized  8
 
 There were 0 error(s) and 5 warning(s) in this design.
 =====================================================================
@@ -106,9 +106,9 @@ There were 0 error(s) and 0 warning(s).
 Compile report:
 ===============
 
-    CORE                       Used:    632  Total:   6144   (10.29%)
+    CORE                       Used:    400  Total:   6144   (6.51%)
     IO (W/ clocks)             Used:     25  Total:     68   (36.76%)
-    GLOBAL (Chip+Quadrant)     Used:      6  Total:     18   (33.33%)
+    GLOBAL (Chip+Quadrant)     Used:      4  Total:     18   (22.22%)
     PLL                        Used:      1  Total:      1   (100.00%)
     RAM/FIFO                   Used:      0  Total:      8   (0.00%)
     Low Static ICC             Used:      0  Total:      1   (0.00%)
@@ -119,7 +119,7 @@ Global Information:
 
     Type            | Used   | Total
     ----------------|--------|--------------
-    Chip global     | 6      | 6  (100.00%)*
+    Chip global     | 4      | 6  (66.67%)*
     Quadrant global | 0      | 12 (0.00%)
 
     (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
@@ -130,8 +130,8 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 482          | 482
-    SEQ     | 150          | 150
+    COMB    | 302          | 302
+    SEQ     | 98           | 98
 
 I/O Function:
 
@@ -163,20 +163,14 @@ Net information report:
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    143     SET/RESET_NET Net   : reset_c
+    95      SET/RESET_NET Net   : reset_c
                           Driver: reset_pad
                           Source: NETLIST
-    135     CLK_NET       Net   : main_clock_0_clock_out
+    87      CLK_NET       Net   : main_clock_0_clock_out
                           Driver: main_clock_0/clock_out_RNIG44
                           Source: NETLIST
-    124     INT_NET       Net   : modulator_0_output_signal
+    71      INT_NET       Net   : modulator_0_output_signal
                           Driver: modulator_0/output_signal_RNI2QGD
-                          Source: NETLIST
-    72      INT_NET       Net   : data_source_0/N_29
-                          Driver: data_source_0/counter_RNIK0AI3_0[1]
-                          Source: NETLIST
-    62      INT_NET       Net   : data_source_0/data_index[1]
-                          Driver: data_source_0/data_index_RNI1QC4[1]
                           Source: NETLIST
     9       CLK_NET       Net   : GLA
                           Driver: pll_core_0/Core
@@ -185,50 +179,50 @@ The following nets have been assigned to a chip global resource:
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    21      INT_NET       Net   : data_source_0/data_index_1[5]
-                          Driver: data_source_0/data_index_1[5]
-    21      INT_NET       Net   : data_source_0/data_index_0[5]
-                          Driver: data_source_0/data_index_0[5]
+    22      INT_NET       Net   : data_source_0/data_index[6]
+                          Driver: data_source_0/data_index[6]
+    22      INT_NET       Net   : data_source_0/data_index[5]
+                          Driver: data_source_0/data_index[5]
+    21      INT_NET       Net   : data_source_0/data_index_0[3]
+                          Driver: data_source_0/data_index_0[3]
+    21      INT_NET       Net   : data_source_0/data_index[1]
+                          Driver: data_source_0/data_index[1]
     20      INT_NET       Net   : AND2_0_Y
                           Driver: AND2_0
-    20      INT_NET       Net   : data_source_0/data_index[5]
-                          Driver: data_source_0/data_index[5]
-    19      INT_NET       Net   : data_source_0/un25lto0
-                          Driver: data_source_0/data_index[0]
-    18      INT_NET       Net   : data_source_0/data_index_0[2]
-                          Driver: data_source_0/data_index_0[2]
-    18      INT_NET       Net   : data_source_0/data_index[2]
-                          Driver: data_source_0/data_index[2]
+    20      INT_NET       Net   : data_source_0/data_index[3]
+                          Driver: data_source_0/data_index[3]
+    20      INT_NET       Net   : data_source_0/data_index[7]
+                          Driver: data_source_0/data_index[7]
+    18      INT_NET       Net   : data_source_0/N_29_0
+                          Driver: data_source_0/counter_RNIK0AI3[1]
+    18      INT_NET       Net   : data_source_0/N_29
+                          Driver: data_source_0/counter_RNIK0AI3_0[1]
     17      INT_NET       Net   : modulator_0/clock_countere
                           Driver: modulator_0/counter_RNIBT613[1]
-    16      INT_NET       Net   : data_source_0/data_index_0[3]
-                          Driver: data_source_0/data_index_0[3]
-    16      INT_NET       Net   : data_source_0/data_index_0[6]
-                          Driver: data_source_0/data_index_0[6]
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    21      INT_NET       Net   : data_source_0/data_index_1[5]
-                          Driver: data_source_0/data_index_1[5]
-    21      INT_NET       Net   : data_source_0/data_index_0[5]
-                          Driver: data_source_0/data_index_0[5]
+    22      INT_NET       Net   : data_source_0/data_index[6]
+                          Driver: data_source_0/data_index[6]
+    22      INT_NET       Net   : data_source_0/data_index[5]
+                          Driver: data_source_0/data_index[5]
+    21      INT_NET       Net   : data_source_0/data_index_0[3]
+                          Driver: data_source_0/data_index_0[3]
+    21      INT_NET       Net   : data_source_0/data_index[1]
+                          Driver: data_source_0/data_index[1]
     20      INT_NET       Net   : AND2_0_Y
                           Driver: AND2_0
-    20      INT_NET       Net   : data_source_0/data_index[5]
-                          Driver: data_source_0/data_index[5]
-    19      INT_NET       Net   : data_source_0/un25lto0
-                          Driver: data_source_0/data_index[0]
-    18      INT_NET       Net   : data_source_0/data_index_0[2]
-                          Driver: data_source_0/data_index_0[2]
-    18      INT_NET       Net   : data_source_0/data_index[2]
-                          Driver: data_source_0/data_index[2]
+    20      INT_NET       Net   : data_source_0/data_index[3]
+                          Driver: data_source_0/data_index[3]
+    20      INT_NET       Net   : data_source_0/data_index[7]
+                          Driver: data_source_0/data_index[7]
+    18      INT_NET       Net   : data_source_0/N_29_0
+                          Driver: data_source_0/counter_RNIK0AI3[1]
+    18      INT_NET       Net   : data_source_0/N_29
+                          Driver: data_source_0/counter_RNIK0AI3_0[1]
     17      INT_NET       Net   : modulator_0/clock_countere
                           Driver: modulator_0/counter_RNIBT613[1]
-    16      INT_NET       Net   : data_source_0/data_index_0[3]
-                          Driver: data_source_0/data_index_0[3]
-    16      INT_NET       Net   : data_source_0/data_index_0[6]
-                          Driver: data_source_0/data_index_0[6]
 ====================
 Flash*Freeze report:
 ====================

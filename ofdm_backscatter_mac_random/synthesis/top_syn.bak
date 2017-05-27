@@ -1,15 +1,15 @@
 #--  Synopsys, Inc.
 #--  Version I-2014.03M-SP1
-#--  Project file Z:\Desktop\ofdm_backscatter_mac_random\synthesis\top_syn.prj
+#--  Project file Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top_syn.prj
 
 #project files
-add_file -verilog "Z:/Desktop/ofdm_backscatter_mac_random/hdl/baseband_signal.v"
-add_file -verilog "Z:/Desktop/ofdm_backscatter_mac_random/hdl/data_source.v"
-add_file -verilog "Z:/Desktop/ofdm_backscatter_mac_random/hdl/main_clock.v"
-add_file -verilog "Z:/Desktop/ofdm_backscatter_mac_random/hdl/modulator.v"
-add_file -verilog "Z:/Desktop/ofdm_backscatter_mac_random/smartgen/pll_core/pll_core.v"
-add_file -verilog "Z:/Desktop/ofdm_backscatter_mac_random/hdl/switching_circuit.v"
-add_file -verilog "Z:/Desktop/ofdm_backscatter_mac_random/component/work/top/top.v"
+add_file -verilog "Z:/Desktop/tag_mac_experiments/ofdm_backscatter_mac_random/hdl/baseband_signal.v"
+add_file -verilog "Z:/Desktop/tag_mac_experiments/ofdm_backscatter_mac_random/hdl/data_source.v"
+add_file -verilog "Z:/Desktop/tag_mac_experiments/ofdm_backscatter_mac_random/hdl/main_clock.v"
+add_file -verilog "Z:/Desktop/tag_mac_experiments/ofdm_backscatter_mac_random/hdl/modulator.v"
+add_file -verilog "Z:/Desktop/tag_mac_experiments/ofdm_backscatter_mac_random/smartgen/pll_core/pll_core.v"
+add_file -verilog "Z:/Desktop/tag_mac_experiments/ofdm_backscatter_mac_random/hdl/switching_circuit.v"
+add_file -verilog "Z:/Desktop/tag_mac_experiments/ofdm_backscatter_mac_random/component/work/top/top.v"
 
 
 

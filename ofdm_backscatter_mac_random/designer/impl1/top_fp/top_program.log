@@ -1,30 +1,31 @@
 FlashPro
-Version: 11.5.0.26
-Release: v11.5
+Version: 11.8.0.26
+Release: v11.8
 
-Software Version: 11.5.0.26
-PDB file 'Z:\fpga_vision\ofdm_backscatter_mac_random\designer\impl1\top.pdb' has been loaded
-successfully.
-DESIGN : Top;  CHECKSUM : D17D;  PDB_VERSION : 1.9
+Software Version: 11.8.0.26
+PDB file 'Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\designer\impl1\top.pdb' has
+been loaded successfully.
+DESIGN : Top;  CHECKSUM : 9562;  PDB_VERSION : 1.9
 Driver : 3.0.0 build 1
-programmer '83788' : FlashPro3
-Opened 'Z:/fpga_vision/ofdm_backscatter_mac_random/designer/impl1/top_fp/top.pro'
+programmer '83583' : FlashPro3
+Opened
+'Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\designer\impl1\top_fp\top.pro'
 The 'open_project' command succeeded.
 The 'set_programming_action' command succeeded.
-programmer '83788' : Scan Chain...
-Warning: programmer '83788' : Vpump has been selected on programmer AND an externally provided
+programmer '83583' : Scan Chain...
+Warning: programmer '83583' : Vpump has been selected on programmer AND an externally provided
          Vpump has also been detected. Using externally provided Vpump voltage source.
-programmer '83788' : Scan Chain PASSED.
-programmer '83788' : Executing action PROGRAM
-programmer '83788' : EXPORT FSN[48] = 01128f4088c5
-programmer '83788' : Erase ...
-programmer '83788' : Completed erase
-programmer '83788' : EXPORT CHECKSUM: [16] = d17d
-programmer '83788' : Programming FPGA Array
-programmer '83788' : Verifying FPGA Array
-programmer '83788' :         Verifying FPGA Array -- pass
-programmer '83788' : Finished: Wed Jan 25 18:05:42 2017 (Elapsed time 00:01:06)
-programmer '83788' : Executing action PROGRAM PASSED.
+programmer '83583' : Scan Chain PASSED.
+programmer '83583' : Executing action PROGRAM
+programmer '83583' : EXPORT FSN[48] = 01128f4088c5
+programmer '83583' : Erase ...
+programmer '83583' : Completed erase
+programmer '83583' : EXPORT CHECKSUM[16] = 9562
+programmer '83583' : Programming FPGA Array
+programmer '83583' : Verifying FPGA Array
+programmer '83583' :         Verifying FPGA Array -- pass
+programmer '83583' : Finished: Fri May 26 16:38:51 2017 (Elapsed time 00:01:13)
+programmer '83583' : Executing action PROGRAM PASSED.
 
                         o - o - o - o - o - o
 

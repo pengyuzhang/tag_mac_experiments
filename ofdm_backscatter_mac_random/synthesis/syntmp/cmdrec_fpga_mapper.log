@@ -1,15 +1,15 @@
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis   -part AGLN250V2  -package VQFP100  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 0 -RWCheckOnRam 0 -summaryfile Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synlog\report\top_fpga_mapper.xml  -top_level_module  top  -flow mapping  -mp  1  -prjfile  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\scratchproject.prs  -implementation  synthesis  -licensetype  synplifypro_actel  -multisrs  -oedif  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.edn   -freq 1.000   Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synwork\top_prem.srd  -sap  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.sap  -otap  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.tap  -omap  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.map  -devicelib  C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v  -sap  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.sap  -ologparam  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\syntmp\top.plg  -osyn  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.srm  -prjdir  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\  -prjname  top_syn  -log  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synlog\top_fpga_mapper.srr 
-rc:1 success:1
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\scratchproject.prs|o|1485383587|2126
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.edn|o|1485385330|343219
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synwork\top_prem.srd|i|1485385325|25158
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.sap|o|1485385325|70289
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.tap|o|0|0
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.map|o|1485385330|28
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v|i|1412951262|50704
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.sap|o|1485385325|70289
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\syntmp\top.plg|o|1485385330|2552
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.srm|o|1485385330|70334
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synlog\top_fpga_mapper.srr|o|1485385330|97814
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\m_proasic.exe|i|1412954416|15337984
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\m_proasic.exe|i|1412952226|12576768
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis   -part AGLN250V2  -package VQFP100  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 0 -RWCheckOnRam 0 -summaryfile Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\report\top_fpga_mapper.xml  -top_level_module  top  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.edn   -freq 1.000   Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synwork\top_prem.srd  -sap  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.sap  -otap  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.tap  -omap  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v  -sap  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.sap  -ologparam  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\syntmp\top.plg  -osyn  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.srm  -prjdir  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\  -prjname  top_syn  -log  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\top_fpga_mapper.srr 
+rc:1 success:1 runtime:6
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\scratchproject.prs|io:o|time:1495834872|size:2428|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.edn|io:o|time:1495841687|size:230469|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synwork\top_prem.srd|io:i|time:1495841681|size:22409|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.sap|io:o|time:1495841681|size:5598|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.tap|io:o|time:0|size:0|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.map|io:o|time:1495841687|size:28|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v|io:i|time:1487970450|size:50704|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.sap|io:o|time:1495841681|size:5598|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\syntmp\top.plg|io:o|time:1495841687|size:1277|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.srm|io:o|time:1495841686|size:69042|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\top_fpga_mapper.srr|io:o|time:1495841687|size:121018|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479403034|size:10978304|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479404440|size:14125056|exec:1

@@ -1,13 +1,14 @@
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis   -part AGLN250V2  -package VQFP100  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 0 -RWCheckOnRam 0 -summaryfile Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synlog\report\top_premap.xml  -top_level_module  top  -oedif  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.edn  -conchk_prepass  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top_cck_prepass.rpt   -freq 1.000   Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synwork\top_mult.srs  -flow prepass  -gcc_prepass  -osrd  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synwork\top_prem.srd  -qsap  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.sap  -devicelib  C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v  -ologparam  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\syntmp\top.plg  -osyn  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synwork\top_prem.srd  -prjdir  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\  -prjname  top_syn  -log  Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synlog\top_premap.srr 
-rc:1 success:1
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.edn|o|1485384734|445080
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top_cck_prepass.rpt|o|0|0
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synwork\top_mult.srs|i|1485385324|5532
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synwork\top_prem.srd|o|1485385325|25158
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\top.sap|o|1485385325|70289
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v|i|1412951262|50704
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\syntmp\top.plg|o|1485385325|0
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synwork\top_prem.srd|o|1485385325|25158
-Z:\fpga_vision\ofdm_backscatter_mac_random\synthesis\synlog\top_premap.srr|o|1485385325|3262
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\m_proasic.exe|i|1412954416|15337984
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\m_proasic.exe|i|1412952226|12576768
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -mp  4  -prjfile  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis   -part AGLN250V2  -package VQFP100  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 0 -RWCheckOnRam 0 -summaryfile Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\report\top_premap.xml  -top_level_module  top  -oedif  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.edn  -conchk_prepass  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top_cck.rpt   -freq 1.000   Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synwork\top_mult.srs  -flow prepass  -gcc_prepass  -osrd  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synwork\top_prem.srd  -qsap  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v  -ologparam  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\syntmp\top.plg  -osyn  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synwork\top_prem.srd  -prjdir  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\  -prjname  top_syn  -log  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\top_premap.srr 
+rc:1 success:1 runtime:4
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\scratchproject.prs|io:o|time:1495834872|size:2428|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.edn|io:o|time:1495840256|size:245065|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top_cck.rpt|io:o|time:1495841681|size:22176|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synwork\top_mult.srs|io:i|time:1495841676|size:4038|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synwork\top_prem.srd|io:o|time:1495841681|size:22409|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.sap|io:o|time:1495841681|size:5598|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v|io:i|time:1487970450|size:50704|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\syntmp\top.plg|io:o|time:1495841680|size:0|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synwork\top_prem.srd|io:o|time:1495841681|size:22409|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\top_premap.srr|io:o|time:1495841681|size:8190|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479403034|size:10978304|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479404440|size:14125056|exec:1

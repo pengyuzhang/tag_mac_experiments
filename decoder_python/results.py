@@ -4,7 +4,7 @@ import re
 data = open('decoded_data_file.txt', 'r')
 lines_total = data.readlines()
 rown_total = len(lines_total)
-num_tags = 8
+num_tags = 4
 
 div_round = 3
 step = int(rown_total/div_round)
@@ -53,7 +53,7 @@ while rown_index<div_round:
 	print tag_bits_count
 	#print bits_sum*4/9/84864*60
 	#print fairness_index
-	throughput[rown_index] = (float(bits_sum)*div_round)/500000*60
+	throughput[rown_index] = (float(bits_sum)*div_round)/30/1000/(50.4/(50.4+37.6))
 	fairness[rown_index] = fairness_index
 
 	rown_index += 1

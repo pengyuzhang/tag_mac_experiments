@@ -1,9 +1,9 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Wed Jan 25 18:01:50 2017
-// Version: v11.5 11.5.0.26
+// Created by SmartDesign Fri May 26 16:34:20 2017
+// Version: v11.8 11.8.0.26
 //////////////////////////////////////////////////////////////////////
 
-`timescale 1 ns/100 ps
+`timescale 1ns / 100ps
 
 // top
 module top(

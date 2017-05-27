@@ -2,8 +2,9 @@
  			<head> 			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 			<title>Project Status Summary Page</title>
 			<link rel="stylesheet" type="text/css" href="projectstatuspage.css" />
+			<script type = "text/javascript" src="projectstatuspage.js"></script>
 			</head>
-			
+
  			<body style="background-color:#f0f0ff;">
  			
 <table style="border:none;" width="100%" ><tr> <td class="outline">
@@ -12,10 +13,10 @@
  		 </thead> 
 		 <tbody> <tr> <td class="optionTitle" align="left"> Top Module</td> <td> top</td> <td class="optionTitle" align="left"> Retiming</td> <td> 0</td> </tr>
 <tr> <td class="optionTitle" align="left"> Resource Sharing</td> <td> 1</td> <td class="optionTitle" align="left"> Fanout Guide</td> <td> 24</td> </tr>
-<tr> <td class="optionTitle" align="left"> Disable I/O Insertion</td> <td> 0</td> <td class="optionTitle" align="left"> FSM Compiler</td> <td> 1</td> </tr>
+<tr> <td class="optionTitle" align="left"> Disable I/O Insertion</td> <td> 0</td> <td class="optionTitle" align="left"> Disable Sequential Optimizations</td> <td> 0</td> </tr>
  
 </tbody> 
-  </table><br>	 <table width="100%" border="0" cellspacing= "0" cellpadding= "0">
+  </table><br>	 <table width="100%" border="1" cellspacing= "0" cellpadding= "0">
  				   <thead class="tablehead"><tr><th colspan="9">Run Status</th></tr></thead>
          <tbody>
  		<tr>
@@ -30,49 +31,49 @@
  			<th align="left">Date/Time</th>
          </tr>
   <tr>
-  <td class="optionTitle">Compile Input</td><td>Complete</td>
- <td>482</td>
- <td>267</td>
+  <td class="optionTitle"> (compiler)</td><td>Complete</td>
+ <td>41</td>
+ <td>451</td>
 <td>0</td>
 <td>-</td>
+<td>00m:02s</td>
+<td>-</td>
+<td><font size="-1">5/26/2017</font><br/><font size="-2">4:34:33 PM</font></td>
+</tr> 
+
+ <tr>
+  <td class="optionTitle"> (premap)</td><td>Complete</td>
+ <td>19</td>
+ <td>3</td>
+<td>0</td>
+<td>0m:00s</td>
 <td>0m:01s</td>
-<td>-</td>
-<td><font size="-1">1/25/2017</font><br/><font size="-2">6:02:02 PM</font></td>
+<td>110MB</td>
+<td><font size="-1">5/26/2017</font><br/><font size="-2">4:34:41 PM</font></td>
 </tr> 
 
  <tr>
-  <td class="optionTitle">Pre-mapping</td><td>Complete</td>
- <td>3</td>
+  <td class="optionTitle"> (fpga_mapper)</td><td>Complete</td>
+ <td>157</td>
  <td>3</td>
 <td>0</td>
-<td>0m:00s</td>
-<td>0m:00s</td>
-<td>65MB</td>
-<td><font size="-1">1/25/2017</font><br/><font size="-2">6:02:05 PM</font></td>
-</tr> 
-
- <tr>
-  <td class="optionTitle">Map & Optimize</td><td>Complete</td>
- <td>122</td>
- <td>12</td>
-<td>0</td>
-<td>0m:03s</td>
-<td>0m:03s</td>
-<td>67MB</td>
-<td><font size="-1">1/25/2017</font><br/><font size="-2">6:02:10 PM</font></td>
+<td>0m:02s</td>
+<td>0m:02s</td>
+<td>113MB</td>
+<td><font size="-1">5/26/2017</font><br/><font size="-2">4:34:47 PM</font></td>
 </tr> 
 
 <tr>
   <td class="optionTitle">Multi-srs Generator</td>
-  <td>Complete</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>0m:01s</td><td class="empty"></td><td class="empty"></td><td><font size="-1">1/25/2017</font><br/><font size="-2">6:02:04 PM</font></td> 		</tbody>
+  <td>Complete</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>00m:02s</td><td class="empty"></td><td class="empty"></td><td><font size="-1">5/26/2017</font><br/><font size="-2">4:34:36 PM</font></td> 		</tbody>
      </table>
  <br> 
- <table width="100%" border="0" cellspacing= "0" cellpadding= "0">
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0">
  				   <thead class="tablehead"><tr><th colspan="4">Area Summary</th></tr></thead>
 <tfoot> <tr> <td class="optionTitle" colspan="4"></td></tr> 
  </tfoot> 
  <tbody> <tr> 
-<td title ="Total Core Cells used" class="optionTitle" align="left">Core Cells</td> <td>646</td>
+<td title ="Total Core Cells used" class="optionTitle" align="left">Core Cells</td> <td>407</td>
 <td title ="Total IO Cells used" class="optionTitle" align="left">IO Cells</td> <td>25</td>
 </tr>
 <tr> 
@@ -81,19 +82,19 @@
 <td class="optionTitle"></td><td></td></tr> 
 </tbody>
     </table><br> 
- <table width="100%" border="0" cellspacing= "0" cellpadding= "0">
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0">
  				   <thead class="tablehead"><tr><th colspan="4">Timing Summary</th></tr></thead>
 <tfoot> <tr> <td class="optionTitle" colspan="2"></td></tr> 
  </tfoot> 
 <tbody> 
    <tr><th class="optionTitle" align= "left ">Clock Name</th><th class="optionTitle" align= "left ">Req Freq</th><th class="optionTitle" align= "left ">Est Freq</th><th class="optionTitle" align= "left ">Slack</th></tr> 
-<tr> <td  align="left">main_clock|clock_out_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">23.0 MHz</td><td  align="left">956.612</td></tr> 
-<tr> <td  align="left">modulator|output_signal_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">24.4 MHz</td><td  align="left">959.093</td></tr> 
+<tr> <td  align="left">main_clock|clock_out_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">22.8 MHz</td><td  align="left">956.203</td></tr> 
+<tr> <td  align="left">modulator|output_signal_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">47.5 MHz</td><td  align="left">978.943</td></tr> 
 <tr> <td  align="left">pll_core|GLA_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">68.2 MHz</td><td  align="left">985.333</td></tr> 
 </tbody> 
  </table>
 <br> 
- <table width="100%" border="0" cellspacing= "0" cellpadding= "0">
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0">
  				   <thead class="tablehead"><tr><th colspan="4">Optimizations Summary</th></tr></thead>
  <tbody> <tr> 
 <td title ="Non-gated/non-generated clock trees / Gated/generated clock trees" class="optionTitle" align="left">Combined Clock Conversion</td> <td>0 / 3</td>

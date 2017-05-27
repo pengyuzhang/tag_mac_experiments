@@ -1,6 +1,6 @@
 <project name="top" version="1.1">
     <ProjectDirectory>
-        Z:/Desktop/ofdm_backscatter_mac_random/designer/impl1/top_fp
+        Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\designer\impl1\top_fp
     </ProjectDirectory>
     <View>
         SingleSTAPLView
@@ -9,17 +9,17 @@
         
     </LiberoTargetDevice>
     <LogFile>
-        Z:/Desktop/ofdm_backscatter_mac_random/designer/impl1/top_fp/top.log
+        Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\designer\impl1\top_fp\top.log
     </LogFile>
     <SerializationOption>
         Skip
     </SerializationOption>
     <programmer status="enable" type="FlashPro3" revision="UndefRev" connection="usb2.0">
         <name>
-            83788
+            83583
         </name>
         <id>
-            83788
+            83583
         </id>
     </programmer>
     <configuration>
@@ -67,15 +67,6 @@
                 <ClkMode>
                     FreeRunningClk
                 </ClkMode>
-            </FlashPro5>
-            <FlashPro5>
-                <TCK>
-                    4000000
-                </TCK>
-                <Vpump/>
-                <ClkMode>
-                    FreeRunningClk
-                </ClkMode>
                 <ProgrammingMode>
                     JTAGMode
                 </ProgrammingMode>
@@ -83,7 +74,7 @@
         </Hardware>
         <Algo type="PDB">
             <filename>
-                Z:\Desktop\ofdm_backscatter_mac_random\designer\impl1\top.pdb
+                Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\designer\impl1\top.pdb
             </filename>
             <local>
                 projectData\top.pdb

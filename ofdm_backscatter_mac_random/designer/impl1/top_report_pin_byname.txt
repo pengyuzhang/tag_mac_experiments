@@ -1,8 +1,8 @@
 *****************************************************************
-Pin Report - Date: Wed Jan 25 18:03:12 2017 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Fri May 26 16:36:02 2017 Pinchecksum: NOT-AVAILABLE
 Product: Designer
-Release: v11.5
-Version: 11.5.0.26
+Release: v11.8
+Version: 11.8.0.26
 Design Name: Top
 Family: IGLOO
 Die: AGLN250V2
