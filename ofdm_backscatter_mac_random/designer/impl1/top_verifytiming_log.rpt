@@ -23,10 +23,10 @@ Wrote timing_violations report to file: top_maxdelay_timingviolations_report.txt
 The Report command succeeded ( 00:00:00 )
 Wrote timing_violations report to file: top_mindelay_timingviolations_report.txt
 
-The Report command succeeded ( 00:00:00 )
+The Report command succeeded ( 00:00:01 )
 Design saved to file
 Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\designer\impl1\top.adb.
 
-The Execute Script command succeeded ( 00:00:04 )
+The Execute Script command succeeded ( 00:00:05 )
 Design closed.
 

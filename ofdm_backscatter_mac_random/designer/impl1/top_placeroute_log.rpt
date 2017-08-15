@@ -33,25 +33,25 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Fri May 26 16:35:44 2017
+Timing-driven Placer Started: Tue May 30 17:29:25 2017
 
-Placer Finished: Fri May 26 16:35:47 2017
-Total Placer CPU Time:     00:00:03
+Placer Finished: Tue May 30 17:29:40 2017
+Total Placer CPU Time:     00:00:15
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: top                             Started: Fri May 26 16:35:50 2017
+Design: top                             Started: Tue May 30 17:29:43 2017
 
  
 
 Timing-driven Router completed successfully.
 
 Design: top                             
-Finished: Fri May 26 16:35:58 2017
-Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:08
-Total Memory Usage: 158.3 Mbytes
+Finished: Tue May 30 17:30:00 2017
+Total CPU Time:     00:00:13            Total Elapsed Time: 00:00:17
+Total Memory Usage: 169.4 Mbytes
                         o - o - o - o - o - o
 
 Loading the Timing data for the design.
@@ -59,7 +59,7 @@ Finished loading the Timing data.
 TIMER: Max delay timing requirements have been met.
 TIMER: Min delay timing requirements have been met.
 
-The Layout command succeeded ( 00:00:20 )
+The Layout command succeeded ( 00:00:43 )
 Wrote status report to file: top_place_and_route_report.txt
 
 The Report command succeeded ( 00:00:00 )
@@ -81,6 +81,6 @@ The Report command succeeded ( 00:00:01 )
 Design saved to file
 Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\designer\impl1\top.adb.
 
-The Execute Script command succeeded ( 00:00:23 )
+The Execute Script command succeeded ( 00:00:47 )
 Design closed.
 

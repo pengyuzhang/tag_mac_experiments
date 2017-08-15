@@ -2,7 +2,7 @@ Timing Report Max Delay Analysis
 
 SmartTime Version v11.8
 Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
-Date: Fri May 26 16:36:39 2017
+Date: Tue May 30 17:30:51 2017
 
 
 Design: Top
@@ -34,18 +34,18 @@ Min Clock-To-Out (ns):      N/A
 Max Clock-To-Out (ns):      N/A
 
 Clock Domain:               main_clock_0/clock_out:Q
-Period (ns):                35.016
-Frequency (MHz):            28.558
+Period (ns):                41.467
+Frequency (MHz):            24.116
 Required Period (ns):       N/A
 Required Frequency (MHz):   N/A
-External Setup (ns):        17.767
-External Hold (ns):         0.374
-Min Clock-To-Out (ns):      5.193
-Max Clock-To-Out (ns):      22.288
+External Setup (ns):        18.014
+External Hold (ns):         0.561
+Min Clock-To-Out (ns):      5.079
+Max Clock-To-Out (ns):      20.603
 
 Clock Domain:               modulator_0/output_signal:Q
-Period (ns):                19.541
-Frequency (MHz):            51.174
+Period (ns):                18.073
+Frequency (MHz):            55.331
 Required Period (ns):       N/A
 Required Frequency (MHz):   N/A
 External Setup (ns):        N/A
@@ -54,14 +54,14 @@ Min Clock-To-Out (ns):      N/A
 Max Clock-To-Out (ns):      N/A
 
 Clock Domain:               pll_core_0/Core:GLA
-Period (ns):                13.996
-Frequency (MHz):            71.449
+Period (ns):                13.252
+Frequency (MHz):            75.460
 Required Period (ns):       N/A
 Required Frequency (MHz):   N/A
 External Setup (ns):        N/A
 External Hold (ns):         N/A
-Min Clock-To-Out (ns):      5.348
-Max Clock-To-Out (ns):      18.826
+Min Clock-To-Out (ns):      5.291
+Max Clock-To-Out (ns):      18.799
 
 Clock Domain:               CLKA
 Period (ns):                N/A
@@ -139,143 +139,143 @@ SET Register to Register
 Path 1
   From:                        data_source_0/counter[0]:CLK
   To:                          data_source_0/counter[15]:D
-  Delay (ns):                  33.916
+  Delay (ns):                  40.351
   Slack (ns):
-  Arrival (ns):                38.420
+  Arrival (ns):                45.145
   Required (ns):
   Setup (ns):                  1.112
-  Minimum Period (ns):         35.016
+  Minimum Period (ns):         41.467
 
 Path 2
-  From:                        data_source_0/counter[1]:CLK
-  To:                          data_source_0/counter[15]:D
-  Delay (ns):                  33.589
-  Slack (ns):
-  Arrival (ns):                38.083
-  Required (ns):
-  Setup (ns):                  1.112
-  Minimum Period (ns):         34.679
-
-Path 3
-  From:                        data_source_0/counter[2]:CLK
-  To:                          data_source_0/counter[15]:D
-  Delay (ns):                  32.218
-  Slack (ns):
-  Arrival (ns):                36.712
-  Required (ns):
-  Setup (ns):                  1.112
-  Minimum Period (ns):         33.308
-
-Path 4
   From:                        data_source_0/counter[0]:CLK
   To:                          data_source_0/counter[14]:D
-  Delay (ns):                  32.088
+  Delay (ns):                  39.565
   Slack (ns):
-  Arrival (ns):                36.592
+  Arrival (ns):                44.359
   Required (ns):
   Setup (ns):                  1.112
-  Minimum Period (ns):         33.188
+  Minimum Period (ns):         40.676
 
-Path 5
+Path 3
+  From:                        data_source_0/counter[1]:CLK
+  To:                          data_source_0/counter[15]:D
+  Delay (ns):                  39.419
+  Slack (ns):
+  Arrival (ns):                44.218
+  Required (ns):
+  Setup (ns):                  1.112
+  Minimum Period (ns):         40.540
+
+Path 4
   From:                        data_source_0/counter[1]:CLK
   To:                          data_source_0/counter[14]:D
-  Delay (ns):                  31.761
+  Delay (ns):                  38.633
   Slack (ns):
-  Arrival (ns):                36.255
+  Arrival (ns):                43.432
   Required (ns):
   Setup (ns):                  1.112
-  Minimum Period (ns):         32.851
+  Minimum Period (ns):         39.749
+
+Path 5
+  From:                        data_source_0/counter[0]:CLK
+  To:                          data_source_0/counter[13]:D
+  Delay (ns):                  36.745
+  Slack (ns):
+  Arrival (ns):                41.539
+  Required (ns):
+  Setup (ns):                  1.112
+  Minimum Period (ns):         37.830
 
 
 Expanded Path 1
   From: data_source_0/counter[0]:CLK
   To: data_source_0/counter[15]:D
   data required time                             N/C
-  data arrival time                          -   38.420
+  data arrival time                          -   45.145
   slack                                          N/C
   ________________________________________________________
   Data arrival time calculation
   0.000                        main_clock_0/clock_out:Q
                +     0.000          Clock source
   0.000                        main_clock_0/clock_out:Q (r)
-               +     1.457          net: main_clock_0/clock_out_i
-  1.457                        main_clock_0/clock_out_RNIG44:A (r)
+               +     1.766          net: main_clock_0/clock_out_i
+  1.766                        main_clock_0/clock_out_RNIG44:A (r)
                +     1.869          cell: ADLIB:CLKINT
-  3.326                        main_clock_0/clock_out_RNIG44:Y (r)
-               +     1.178          net: main_clock_0_clock_out
-  4.504                        data_source_0/counter[0]:CLK (r)
+  3.635                        main_clock_0/clock_out_RNIG44:Y (r)
+               +     1.159          net: main_clock_0_clock_out
+  4.794                        data_source_0/counter[0]:CLK (r)
                +     1.606          cell: ADLIB:DFN1P0
-  6.110                        data_source_0/counter[0]:Q (f)
-               +     0.651          net: data_source_0/counter_i_0[0]
-  6.761                        data_source_0/counter_RNIVPDJ[1]:B (f)
-               +     1.547          cell: ADLIB:OR2
-  8.308                        data_source_0/counter_RNIVPDJ[1]:Y (f)
-               +     0.494          net: data_source_0/N_31
-  8.802                        data_source_0/counter_RNIGO4T[2]:A (f)
-               +     1.213          cell: ADLIB:OR2
-  10.015                       data_source_0/counter_RNIGO4T[2]:Y (f)
-               +     0.494          net: data_source_0/N_32
-  10.509                       data_source_0/counter_RNI2OR61[3]:A (f)
-               +     1.213          cell: ADLIB:OR2
-  11.722                       data_source_0/counter_RNI2OR61[3]:Y (f)
-               +     1.259          net: data_source_0/N_33
-  12.981                       data_source_0/counter_RNILOIG1[4]:A (f)
-               +     1.188          cell: ADLIB:OR2
-  14.169                       data_source_0/counter_RNILOIG1[4]:Y (f)
-               +     0.638          net: data_source_0/N_34
-  14.807                       data_source_0/counter_RNI9Q9Q1[5]:B (f)
-               +     1.544          cell: ADLIB:OR2A
-  16.351                       data_source_0/counter_RNI9Q9Q1[5]:Y (f)
-               +     0.494          net: data_source_0/N_35
-  16.845                       data_source_0/counter_RNIUS042[6]:A (f)
-               +     1.213          cell: ADLIB:OR2
-  18.058                       data_source_0/counter_RNIUS042[6]:Y (f)
-               +     0.650          net: data_source_0/N_36
-  18.708                       data_source_0/counter_RNIB5FN2[7]:C (f)
-               +     1.637          cell: ADLIB:OR3A
-  20.345                       data_source_0/counter_RNIB5FN2[7]:Y (f)
-               +     1.739          net: data_source_0/N_38
-  22.084                       data_source_0/counter_RNI3B613[9]:B (f)
-               +     1.660          cell: ADLIB:OR2A
-  23.744                       data_source_0/counter_RNI3B613[9]:Y (f)
-               +     1.164          net: data_source_0/N_39
-  24.908                       data_source_0/counter_RNI3DP13[10]:B (f)
-               +     1.740          cell: ADLIB:OR2A
-  26.648                       data_source_0/counter_RNI3DP13[10]:Y (f)
-               +     0.511          net: data_source_0/N_40
-  27.159                       data_source_0/counter_RNI4GC23[11]:B (f)
-               +     1.504          cell: ADLIB:OR2A
-  28.663                       data_source_0/counter_RNI4GC23[11]:Y (f)
+  6.400                        data_source_0/counter[0]:Q (f)
+               +     3.168          net: data_source_0/counter_i_0[0]
+  9.568                        data_source_0/counter_RNIVPDJ[1]:B (f)
+               +     1.577          cell: ADLIB:OR2
+  11.145                       data_source_0/counter_RNIVPDJ[1]:Y (f)
+               +     1.705          net: data_source_0/N_31
+  12.850                       data_source_0/counter_RNIGO4T[2]:B (f)
+               +     1.570          cell: ADLIB:OR2
+  14.420                       data_source_0/counter_RNIGO4T[2]:Y (f)
+               +     0.518          net: data_source_0/N_32
+  14.938                       data_source_0/counter_RNI2OR61[3]:B (f)
+               +     1.505          cell: ADLIB:OR2
+  16.443                       data_source_0/counter_RNI2OR61[3]:Y (f)
+               +     0.518          net: data_source_0/N_33
+  16.961                       data_source_0/counter_RNILOIG1[4]:B (f)
+               +     1.505          cell: ADLIB:OR2
+  18.466                       data_source_0/counter_RNILOIG1[4]:Y (f)
+               +     2.072          net: data_source_0/N_34
+  20.538                       data_source_0/counter_RNI9Q9Q1[5]:B (f)
+               +     1.420          cell: ADLIB:OR2A
+  21.958                       data_source_0/counter_RNI9Q9Q1[5]:Y (f)
+               +     0.500          net: data_source_0/N_35
+  22.458                       data_source_0/counter_RNIUS042[6]:A (f)
+               +     1.215          cell: ADLIB:OR2
+  23.673                       data_source_0/counter_RNIUS042[6]:Y (f)
+               +     0.654          net: data_source_0/N_36
+  24.327                       data_source_0/counter_RNIB5FN2[7]:B (f)
+               +     1.410          cell: ADLIB:OR3A
+  25.737                       data_source_0/counter_RNIB5FN2[7]:Y (f)
+               +     2.830          net: data_source_0/N_38
+  28.567                       data_source_0/counter_RNI3B613[9]:B (f)
+               +     2.325          cell: ADLIB:OR2A
+  30.892                       data_source_0/counter_RNI3B613[9]:Y (f)
+               +     2.305          net: data_source_0/N_39
+  33.197                       data_source_0/counter_RNI3DP13[10]:B (f)
+               +     1.853          cell: ADLIB:OR2A
+  35.050                       data_source_0/counter_RNI3DP13[10]:Y (f)
+               +     0.565          net: data_source_0/N_40
+  35.615                       data_source_0/counter_RNI4GC23[11]:B (f)
+               +     1.522          cell: ADLIB:OR2A
+  37.137                       data_source_0/counter_RNI4GC23[11]:Y (f)
                +     0.505          net: data_source_0/N_41
-  29.168                       data_source_0/counter_RNI6KV23[12]:B (f)
+  37.642                       data_source_0/counter_RNI6KV23[12]:B (f)
                +     1.502          cell: ADLIB:OR2A
-  30.670                       data_source_0/counter_RNI6KV23[12]:Y (f)
-               +     2.067          net: data_source_0/N_42
-  32.737                       data_source_0/counter_RNI9PI33[13]:B (f)
-               +     1.859          cell: ADLIB:OR2A
-  34.596                       data_source_0/counter_RNI9PI33[13]:Y (f)
-               +     0.505          net: data_source_0/N_43
-  35.101                       data_source_0/counter_RNO_0[15]:B (f)
-               +     1.502          cell: ADLIB:OR2A
-  36.603                       data_source_0/counter_RNO_0[15]:Y (f)
+  39.144                       data_source_0/counter_RNI6KV23[12]:Y (f)
+               +     0.922          net: data_source_0/N_42
+  40.066                       data_source_0/counter_RNI9PI33[13]:B (f)
+               +     1.417          cell: ADLIB:OR2A
+  41.483                       data_source_0/counter_RNI9PI33[13]:Y (f)
+               +     0.380          net: data_source_0/N_43
+  41.863                       data_source_0/counter_RNO_0[15]:B (f)
+               +     1.465          cell: ADLIB:OR2A
+  43.328                       data_source_0/counter_RNO_0[15]:Y (f)
                +     0.358          net: data_source_0/N_44
-  36.961                       data_source_0/counter_RNO[15]:A (f)
+  43.686                       data_source_0/counter_RNO[15]:A (f)
                +     1.082          cell: ADLIB:XA1A
-  38.043                       data_source_0/counter_RNO[15]:Y (f)
+  44.768                       data_source_0/counter_RNO[15]:Y (f)
                +     0.377          net: data_source_0/counter_n15
-  38.420                       data_source_0/counter[15]:D (f)
+  45.145                       data_source_0/counter[15]:D (f)
                                     
-  38.420                       data arrival time
+  45.145                       data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          main_clock_0/clock_out:Q
                +     0.000          Clock source
   N/C                          main_clock_0/clock_out:Q (r)
-               +     1.457          net: main_clock_0/clock_out_i
+               +     1.766          net: main_clock_0/clock_out_i
   N/C                          main_clock_0/clock_out_RNIG44:A (r)
                +     1.869          cell: ADLIB:CLKINT
   N/C                          main_clock_0/clock_out_RNIG44:Y (r)
-               +     1.190          net: main_clock_0_clock_out
+               +     1.155          net: main_clock_0_clock_out
   N/C                          data_source_0/counter[15]:CLK (r)
                -     1.112          Library setup time: ADLIB:DFN1C0
   N/C                          data_source_0/counter[15]:D
@@ -289,97 +289,101 @@ SET External Setup
 
 Path 1
   From:                        trigger_signal
-  To:                          modulator_0/clock_counter[8]:E
-  Delay (ns):                  21.328
+  To:                          modulator_0/counter[5]:D
+  Delay (ns):                  21.739
   Slack (ns):
-  Arrival (ns):                21.328
+  Arrival (ns):                21.739
   Required (ns):
-  Setup (ns):                  0.947
-  External Setup (ns):         17.767
+  Setup (ns):                  1.112
+  External Setup (ns):         18.014
 
 Path 2
   From:                        mac_control_signal
-  To:                          modulator_0/clock_counter[8]:E
-  Delay (ns):                  21.293
+  To:                          modulator_0/counter[5]:D
+  Delay (ns):                  20.992
   Slack (ns):
-  Arrival (ns):                21.293
-  Required (ns):
-  Setup (ns):                  0.947
-  External Setup (ns):         17.732
-
-Path 3
-  From:                        mac_control_signal
-  To:                          modulator_0/counter[3]:D
-  Delay (ns):                  19.743
-  Slack (ns):
-  Arrival (ns):                19.743
+  Arrival (ns):                20.992
   Required (ns):
   Setup (ns):                  1.112
-  External Setup (ns):         16.353
+  External Setup (ns):         17.267
+
+Path 3
+  From:                        trigger_signal
+  To:                          modulator_0/counter[3]:D
+  Delay (ns):                  20.212
+  Slack (ns):
+  Arrival (ns):                20.212
+  Required (ns):
+  Setup (ns):                  1.112
+  External Setup (ns):         16.525
 
 Path 4
   From:                        trigger_signal
-  To:                          modulator_0/counter[3]:D
-  Delay (ns):                  19.613
+  To:                          modulator_0/clock_counter[7]:D
+  Delay (ns):                  19.914
   Slack (ns):
-  Arrival (ns):                19.613
+  Arrival (ns):                19.914
   Required (ns):
-  Setup (ns):                  1.169
-  External Setup (ns):         16.280
+  Setup (ns):                  1.112
+  External Setup (ns):         16.189
 
 Path 5
   From:                        trigger_signal
-  To:                          modulator_0/clock_counter[7]:E
-  Delay (ns):                  19.262
+  To:                          modulator_0/clock_counter[8]:D
+  Delay (ns):                  19.790
   Slack (ns):
-  Arrival (ns):                19.262
+  Arrival (ns):                19.790
   Required (ns):
-  Setup (ns):                  0.947
-  External Setup (ns):         15.701
+  Setup (ns):                  1.112
+  External Setup (ns):         16.065
 
 
 Expanded Path 1
   From: trigger_signal
-  To: modulator_0/clock_counter[8]:E
+  To: modulator_0/counter[5]:D
   data required time                             N/C
-  data arrival time                          -   21.328
+  data arrival time                          -   21.739
   slack                                          N/C
   ________________________________________________________
   Data arrival time calculation
-  0.000                        trigger_signal (r)
+  0.000                        trigger_signal (f)
                +     0.000          net: trigger_signal
-  0.000                        trigger_signal_pad/U0/U0:PAD (r)
-               +     1.560          cell: ADLIB:IOPAD_IN
-  1.560                        trigger_signal_pad/U0/U0:Y (r)
+  0.000                        trigger_signal_pad/U0/U0:PAD (f)
+               +     1.118          cell: ADLIB:IOPAD_IN
+  1.118                        trigger_signal_pad/U0/U0:Y (f)
                +     0.000          net: trigger_signal_pad/U0/NET1
-  1.560                        trigger_signal_pad/U0/U1:YIN (r)
-               +     0.251          cell: ADLIB:IOIN_IB
-  1.811                        trigger_signal_pad/U0/U1:Y (r)
-               +     1.364          net: trigger_signal_c
-  3.175                        AND2_0:A (r)
-               +     0.973          cell: ADLIB:AND2
-  4.148                        AND2_0:Y (r)
-               +     6.222          net: AND2_0_Y
-  10.370                       modulator_0/counter_RNIBT613[1]:C (r)
-               +     2.885          cell: ADLIB:AO1B
-  13.255                       modulator_0/counter_RNIBT613[1]:Y (f)
-               +     8.073          net: modulator_0/clock_countere
-  21.328                       modulator_0/clock_counter[8]:E (f)
+  1.118                        trigger_signal_pad/U0/U1:YIN (f)
+               +     0.256          cell: ADLIB:IOIN_IB
+  1.374                        trigger_signal_pad/U0/U1:Y (f)
+               +     2.435          net: trigger_signal_c
+  3.809                        AND2_0:A (f)
+               +     1.335          cell: ADLIB:AND2
+  5.144                        AND2_0:Y (f)
+               +     8.134          net: AND2_0_Y
+  13.278                       modulator_0/counter_RNIBT613[4]:A (f)
+               +     1.687          cell: ADLIB:NOR2A
+  14.965                       modulator_0/counter_RNIBT613[4]:Y (f)
+               +     3.847          net: modulator_0/counter_0_sqmuxa
+  18.812                       modulator_0/counter_RNO[5]:C (f)
+               +     2.505          cell: ADLIB:XA1
+  21.317                       modulator_0/counter_RNO[5]:Y (f)
+               +     0.422          net: modulator_0/counter_n5
+  21.739                       modulator_0/counter[5]:D (f)
                                     
-  21.328                       data arrival time
+  21.739                       data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          main_clock_0/clock_out:Q
                +     0.000          Clock source
   N/C                          main_clock_0/clock_out:Q (r)
-               +     1.457          net: main_clock_0/clock_out_i
+               +     1.766          net: main_clock_0/clock_out_i
   N/C                          main_clock_0/clock_out_RNIG44:A (r)
                +     1.869          cell: ADLIB:CLKINT
   N/C                          main_clock_0/clock_out_RNIG44:Y (r)
-               +     1.182          net: main_clock_0_clock_out
-  N/C                          modulator_0/clock_counter[8]:CLK (r)
-               -     0.947          Library setup time: ADLIB:DFN1E1C0
-  N/C                          modulator_0/clock_counter[8]:E
+               +     1.202          net: main_clock_0_clock_out
+  N/C                          modulator_0/counter[5]:CLK (r)
+               -     1.112          Library setup time: ADLIB:DFN1C0
+  N/C                          modulator_0/counter[5]:D
 
 
 END SET External Setup
@@ -390,100 +394,96 @@ SET Clock to Output
 
 Path 1
   From:                        modulator_0/output_signal:CLK
-  To:                          output_signal[0]
-  Delay (ns):                  17.759
+  To:                          output_signal[10]
+  Delay (ns):                  15.756
   Slack (ns):
-  Arrival (ns):                22.288
+  Arrival (ns):                20.603
   Required (ns):
-  Clock to Out (ns):           22.288
+  Clock to Out (ns):           20.603
 
 Path 2
-  From:                        modulator_0/output_signal:CLK
-  To:                          output_signal[1]
-  Delay (ns):                  17.410
+  From:                        data_source_0/tag_control_sig[13]:CLK
+  To:                          output_signal[13]
+  Delay (ns):                  15.239
   Slack (ns):
-  Arrival (ns):                21.939
+  Arrival (ns):                20.038
   Required (ns):
-  Clock to Out (ns):           21.939
+  Clock to Out (ns):           20.038
 
 Path 3
-  From:                        modulator_0/output_signal:CLK
-  To:                          output_signal[3]
-  Delay (ns):                  16.397
+  From:                        data_source_0/tag_control_sig[0]:CLK
+  To:                          output_signal[0]
+  Delay (ns):                  15.038
   Slack (ns):
-  Arrival (ns):                20.926
+  Arrival (ns):                19.836
   Required (ns):
-  Clock to Out (ns):           20.926
+  Clock to Out (ns):           19.836
 
 Path 4
   From:                        modulator_0/output_signal:CLK
   To:                          output_signal[2]
-  Delay (ns):                  16.219
+  Delay (ns):                  14.862
   Slack (ns):
-  Arrival (ns):                20.748
+  Arrival (ns):                19.709
   Required (ns):
-  Clock to Out (ns):           20.748
+  Clock to Out (ns):           19.709
 
 Path 5
-  From:                        data_source_0/output_data[1]:CLK
-  To:                          output_signal[1]
-  Delay (ns):                  14.846
+  From:                        modulator_0/output_signal:CLK
+  To:                          output_signal[9]
+  Delay (ns):                  14.604
   Slack (ns):
-  Arrival (ns):                19.375
+  Arrival (ns):                19.451
   Required (ns):
-  Clock to Out (ns):           19.375
+  Clock to Out (ns):           19.451
 
 
 Expanded Path 1
   From: modulator_0/output_signal:CLK
-  To: output_signal[0]
+  To: output_signal[10]
   data required time                             N/C
-  data arrival time                          -   22.288
+  data arrival time                          -   20.603
   slack                                          N/C
   ________________________________________________________
   Data arrival time calculation
   0.000                        main_clock_0/clock_out:Q
                +     0.000          Clock source
   0.000                        main_clock_0/clock_out:Q (r)
-               +     1.457          net: main_clock_0/clock_out_i
-  1.457                        main_clock_0/clock_out_RNIG44:A (r)
+               +     1.766          net: main_clock_0/clock_out_i
+  1.766                        main_clock_0/clock_out_RNIG44:A (r)
                +     1.869          cell: ADLIB:CLKINT
-  3.326                        main_clock_0/clock_out_RNIG44:Y (r)
-               +     1.203          net: main_clock_0_clock_out
-  4.529                        modulator_0/output_signal:CLK (r)
+  3.635                        main_clock_0/clock_out_RNIG44:Y (r)
+               +     1.212          net: main_clock_0_clock_out
+  4.847                        modulator_0/output_signal:CLK (r)
                +     1.606          cell: ADLIB:DFN1E1C0
-  6.135                        modulator_0/output_signal:Q (f)
-               +     2.799          net: modulator_0/output_signal_i
-  8.934                        modulator_0/output_signal_RNI2QGD:A (f)
+  6.453                        modulator_0/output_signal:Q (f)
+               +     1.747          net: modulator_0/output_signal_i
+  8.200                        modulator_0/output_signal_RNI2QGD:A (f)
                +     1.869          cell: ADLIB:CLKINT
-  10.803                       modulator_0/output_signal_RNI2QGD:Y (f)
-               +     1.068          net: modulator_0_output_signal
-  11.871                       switching_circuit_0/un1_out_signal_switch:C (f)
-               +     0.959          cell: ADLIB:NOR3B
-  12.830                       switching_circuit_0/un1_out_signal_switch:Y (r)
-               +     0.377          net: switching_circuit_0/un1_out_signal_switch
-  13.207                       switching_circuit_0/out_signal_switch_1[0]:C (r)
-               +     1.545          cell: ADLIB:AO1
-  14.752                       switching_circuit_0/out_signal_switch_1[0]:Y (r)
-               +     3.061          net: output_signal_c[0]
-  17.813                       output_signal_pad[0]/U0/U1:D (r)
+  10.069                       modulator_0/output_signal_RNI2QGD:Y (f)
+               +     1.066          net: modulator_0_output_signal
+  11.135                       switching_circuit_0/out_signal_switch_1[10]:S (f)
+               +     0.923          cell: ADLIB:MX2
+  12.058                       switching_circuit_0/out_signal_switch_1[10]:Y (r)
+               +     4.070          net: output_signal_c[10]
+  16.128                       output_signal_pad[10]/U0/U1:D (r)
                +     1.371          cell: ADLIB:IOTRI_OB_EB
-  19.184                       output_signal_pad[0]/U0/U1:DOUT (r)
-               +     0.000          net: output_signal_pad[0]/U0/NET1
-  19.184                       output_signal_pad[0]/U0/U0:D (r)
+  17.499                       output_signal_pad[10]/U0/U1:DOUT (r)
+               +     0.000          net: output_signal_pad[10]/U0/NET1
+  17.499                       output_signal_pad[10]/U0/U0:D (r)
                +     3.104          cell: ADLIB:IOPAD_TRI
-  22.288                       output_signal_pad[0]/U0/U0:PAD (r)
-               +     0.000          net: output_signal[0]
-  22.288                       output_signal[0] (r)
+  20.603                       output_signal_pad[10]/U0/U0:PAD (r)
+               +     0.000          net: output_signal[10]
+  20.603                       output_signal[10] (r)
                                     
-  22.288                       data arrival time
+  20.603                       data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          main_clock_0/clock_out:Q
                +     0.000          Clock source
   N/C                          main_clock_0/clock_out:Q (r)
                                     
-  N/C                          output_signal[0] (r)
+  N/C                          output_signal[10] (r)
 
 
 END SET Clock to Output
@@ -502,60 +502,60 @@ SET External Recovery
 
 Path 1
   From:                        reset
-  To:                          data_source_0/counter[13]:CLR
-  Delay (ns):                  3.733
+  To:                          data_source_0/counter[3]:PRE
+  Delay (ns):                  3.707
   Slack (ns):
-  Arrival (ns):                3.733
+  Arrival (ns):                3.707
   Required (ns):
   Recovery (ns):               0.235
-  External Recovery (ns):      -0.515
+  External Recovery (ns):      -0.842
 
 Path 2
   From:                        reset
-  To:                          modulator_0/counter[4]:CLR
-  Delay (ns):                  3.751
+  To:                          data_source_0/counter[5]:CLR
+  Delay (ns):                  3.716
   Slack (ns):
-  Arrival (ns):                3.751
+  Arrival (ns):                3.716
   Required (ns):
   Recovery (ns):               0.235
-  External Recovery (ns):      -0.516
+  External Recovery (ns):      -0.843
 
 Path 3
   From:                        reset
-  To:                          modulator_0/counter[3]:CLR
-  Delay (ns):                  3.751
+  To:                          data_source_0/counter[12]:CLR
+  Delay (ns):                  3.710
   Slack (ns):
-  Arrival (ns):                3.751
+  Arrival (ns):                3.710
   Required (ns):
   Recovery (ns):               0.235
-  External Recovery (ns):      -0.516
+  External Recovery (ns):      -0.843
 
 Path 4
   From:                        reset
-  To:                          modulator_0/counter[5]:CLR
-  Delay (ns):                  3.744
+  To:                          data_source_0/counter[0]:PRE
+  Delay (ns):                  3.716
   Slack (ns):
-  Arrival (ns):                3.744
+  Arrival (ns):                3.716
   Required (ns):
   Recovery (ns):               0.235
-  External Recovery (ns):      -0.517
+  External Recovery (ns):      -0.843
 
 Path 5
   From:                        reset
-  To:                          data_source_0/counter[2]:PRE
-  Delay (ns):                  3.732
+  To:                          data_source_0/counter[9]:CLR
+  Delay (ns):                  3.706
   Slack (ns):
-  Arrival (ns):                3.732
+  Arrival (ns):                3.706
   Required (ns):
   Recovery (ns):               0.235
-  External Recovery (ns):      -0.527
+  External Recovery (ns):      -0.844
 
 
 Expanded Path 1
   From: reset
-  To: data_source_0/counter[13]:CLR
+  To: data_source_0/counter[3]:PRE
   data required time                             N/C
-  data arrival time                          -   3.733
+  data arrival time                          -   3.707
   slack                                          N/C
   ________________________________________________________
   Data arrival time calculation
@@ -568,23 +568,23 @@ Expanded Path 1
   1.560                        reset_pad/U0/U1:A (r)
                +     1.016          cell: ADLIB:CLKIO
   2.576                        reset_pad/U0/U1:Y (r)
-               +     1.157          net: reset_c
-  3.733                        data_source_0/counter[13]:CLR (r)
+               +     1.131          net: reset_c
+  3.707                        data_source_0/counter[3]:PRE (r)
                                     
-  3.733                        data arrival time
+  3.707                        data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          main_clock_0/clock_out:Q
                +     0.000          Clock source
   N/C                          main_clock_0/clock_out:Q (r)
-               +     1.457          net: main_clock_0/clock_out_i
+               +     1.766          net: main_clock_0/clock_out_i
   N/C                          main_clock_0/clock_out_RNIG44:A (r)
                +     1.869          cell: ADLIB:CLKINT
   N/C                          main_clock_0/clock_out_RNIG44:Y (r)
-               +     1.157          net: main_clock_0_clock_out
-  N/C                          data_source_0/counter[13]:CLK (r)
-               -     0.235          Library recovery time: ADLIB:DFN1C0
-  N/C                          data_source_0/counter[13]:CLR
+               +     1.149          net: main_clock_0_clock_out
+  N/C                          data_source_0/counter[3]:CLK (r)
+               -     0.235          Library recovery time: ADLIB:DFN1P0
+  N/C                          data_source_0/counter[3]:PRE
 
 
 END SET External Recovery
@@ -605,103 +605,99 @@ SET Register to Register
 
 Path 1
   From:                        data_source_0/data_index[5]:CLK
-  To:                          data_source_0/data_index[7]:D
-  Delay (ns):                  18.373
+  To:                          data_source_0/data_index[3]:D
+  Delay (ns):                  16.946
   Slack (ns):
-  Arrival (ns):                24.442
+  Arrival (ns):                21.888
   Required (ns):
   Setup (ns):                  1.169
-  Minimum Period (ns):         19.541
+  Minimum Period (ns):         18.073
 
 Path 2
   From:                        data_source_0/data_index[5]:CLK
-  To:                          data_source_0/data_index[1]:D
-  Delay (ns):                  17.233
+  To:                          data_source_0/data_index[9]:D
+  Delay (ns):                  16.179
   Slack (ns):
-  Arrival (ns):                23.302
+  Arrival (ns):                21.121
   Required (ns):
   Setup (ns):                  1.169
-  Minimum Period (ns):         18.401
+  Minimum Period (ns):         17.338
 
 Path 3
-  From:                        data_source_0/data_index[6]:CLK
-  To:                          data_source_0/data_index[7]:D
-  Delay (ns):                  16.566
+  From:                        data_source_0/data_index[1]:CLK
+  To:                          data_source_0/data_index[1]:D
+  Delay (ns):                  14.180
   Slack (ns):
-  Arrival (ns):                22.681
+  Arrival (ns):                19.164
   Required (ns):
-  Setup (ns):                  1.169
-  Minimum Period (ns):         17.780
+  Setup (ns):                  1.112
+  Minimum Period (ns):         15.292
 
 Path 4
-  From:                        data_source_0/data_index[5]:CLK
-  To:                          data_source_0/data_index[4]:D
-  Delay (ns):                  16.233
+  From:                        data_source_0/data_index[4]:CLK
+  To:                          data_source_0/data_index[3]:D
+  Delay (ns):                  13.995
   Slack (ns):
-  Arrival (ns):                22.302
+  Arrival (ns):                18.937
   Required (ns):
   Setup (ns):                  1.169
-  Minimum Period (ns):         17.392
+  Minimum Period (ns):         15.122
 
 Path 5
   From:                        data_source_0/data_index[5]:CLK
-  To:                          data_source_0/data_index_0[4]:D
-  Delay (ns):                  16.232
+  To:                          data_source_0/data_index_0[7]:D
+  Delay (ns):                  13.943
   Slack (ns):
-  Arrival (ns):                22.301
+  Arrival (ns):                18.885
   Required (ns):
   Setup (ns):                  1.169
-  Minimum Period (ns):         17.391
+  Minimum Period (ns):         15.075
 
 
 Expanded Path 1
   From: data_source_0/data_index[5]:CLK
-  To: data_source_0/data_index[7]:D
+  To: data_source_0/data_index[3]:D
   data required time                             N/C
-  data arrival time                          -   24.442
+  data arrival time                          -   21.888
   slack                                          N/C
   ________________________________________________________
   Data arrival time calculation
   0.000                        modulator_0/output_signal:Q
                +     0.000          Clock source
   0.000                        modulator_0/output_signal:Q (r)
-               +     3.056          net: modulator_0/output_signal_i
-  3.056                        modulator_0/output_signal_RNI2QGD:A (r)
+               +     1.933          net: modulator_0/output_signal_i
+  1.933                        modulator_0/output_signal_RNI2QGD:A (r)
                +     1.869          cell: ADLIB:CLKINT
-  4.925                        modulator_0/output_signal_RNI2QGD:Y (r)
-               +     1.144          net: modulator_0_output_signal
-  6.069                        data_source_0/data_index[5]:CLK (r)
+  3.802                        modulator_0/output_signal_RNI2QGD:Y (r)
+               +     1.140          net: modulator_0_output_signal
+  4.942                        data_source_0/data_index[5]:CLK (r)
                +     1.606          cell: ADLIB:DFN1C0
-  7.675                        data_source_0/data_index[5]:Q (f)
-               +     4.981          net: data_source_0/data_index[5]
-  12.656                       data_source_0/data_index_RNIBTP8_2[5]:A (f)
-               +     3.378          cell: ADLIB:NOR2
-  16.034                       data_source_0/data_index_RNIBTP8_2[5]:Y (r)
-               +     2.219          net: data_source_0/N_5_0
-  18.253                       data_source_0/data_index_0_RNI19NT[4]:C (r)
-               +     1.913          cell: ADLIB:NOR3C
-  20.166                       data_source_0/data_index_0_RNI19NT[4]:Y (r)
-               +     2.523          net: data_source_0/m115_3
-  22.689                       data_source_0/data_index_RNO[7]:A (r)
-               +     1.452          cell: ADLIB:AOI1B
-  24.141                       data_source_0/data_index_RNO[7]:Y (f)
-               +     0.301          net: data_source_0/data_index_3[7]
-  24.442                       data_source_0/data_index[7]:D (f)
+  6.548                        data_source_0/data_index[5]:Q (f)
+               +     2.209          net: data_source_0/data_index[5]
+  8.757                        data_source_0/data_index_RNI9RP8_2[4]:B (f)
+               +     2.147          cell: ADLIB:NOR2
+  10.904                       data_source_0/data_index_RNI9RP8_2[4]:Y (r)
+               +     9.009          net: data_source_0/tag_control_sig_1_3[649]
+  19.913                       data_source_0/data_index_RNO[3]:B (r)
+               +     1.674          cell: ADLIB:AOI1B
+  21.587                       data_source_0/data_index_RNO[3]:Y (f)
+               +     0.301          net: data_source_0/data_index_3[3]
+  21.888                       data_source_0/data_index[3]:D (f)
                                     
-  24.442                       data arrival time
+  21.888                       data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          modulator_0/output_signal:Q
                +     0.000          Clock source
   N/C                          modulator_0/output_signal:Q (r)
-               +     3.056          net: modulator_0/output_signal_i
+               +     1.933          net: modulator_0/output_signal_i
   N/C                          modulator_0/output_signal_RNI2QGD:A (r)
                +     1.869          cell: ADLIB:CLKINT
   N/C                          modulator_0/output_signal_RNI2QGD:Y (r)
-               +     1.145          net: modulator_0_output_signal
-  N/C                          data_source_0/data_index[7]:CLK (r)
+               +     1.182          net: modulator_0_output_signal
+  N/C                          data_source_0/data_index[3]:CLK (r)
                -     1.169          Library setup time: ADLIB:DFN1C0
-  N/C                          data_source_0/data_index[7]:D
+  N/C                          data_source_0/data_index[3]:D
 
 
 END SET Register to Register
@@ -736,60 +732,60 @@ SET External Recovery
 
 Path 1
   From:                        reset
-  To:                          data_source_0/data_index[0]:PRE
-  Delay (ns):                  3.707
+  To:                          data_source_0/data_index[4]:CLR
+  Delay (ns):                  3.709
   Slack (ns):
-  Arrival (ns):                3.707
+  Arrival (ns):                3.709
   Required (ns):
   Recovery (ns):               0.235
-  External Recovery (ns):      -2.132
+  External Recovery (ns):      -0.998
 
 Path 2
   From:                        reset
-  To:                          data_source_0/data_index[5]:CLR
-  Delay (ns):                  3.701
+  To:                          data_source_0/data_index_0[4]:CLR
+  Delay (ns):                  3.709
   Slack (ns):
-  Arrival (ns):                3.701
+  Arrival (ns):                3.709
   Required (ns):
   Recovery (ns):               0.235
-  External Recovery (ns):      -2.133
+  External Recovery (ns):      -0.999
 
 Path 3
   From:                        reset
-  To:                          data_source_0/data_index[4]:CLR
-  Delay (ns):                  3.710
+  To:                          data_source_0/data_index[8]:CLR
+  Delay (ns):                  3.717
   Slack (ns):
-  Arrival (ns):                3.710
+  Arrival (ns):                3.717
   Required (ns):
   Recovery (ns):               0.235
-  External Recovery (ns):      -2.134
+  External Recovery (ns):      -1.000
 
 Path 4
   From:                        reset
-  To:                          data_source_0/data_index_0[4]:CLR
-  Delay (ns):                  3.710
+  To:                          data_source_0/data_index[9]:CLR
+  Delay (ns):                  3.717
   Slack (ns):
-  Arrival (ns):                3.710
+  Arrival (ns):                3.717
   Required (ns):
   Recovery (ns):               0.235
-  External Recovery (ns):      -2.134
+  External Recovery (ns):      -1.000
 
 Path 5
   From:                        reset
-  To:                          data_source_0/data_index[3]:CLR
-  Delay (ns):                  3.715
+  To:                          data_source_0/data_index[6]:CLR
+  Delay (ns):                  3.717
   Slack (ns):
-  Arrival (ns):                3.715
+  Arrival (ns):                3.717
   Required (ns):
   Recovery (ns):               0.235
-  External Recovery (ns):      -2.135
+  External Recovery (ns):      -1.002
 
 
 Expanded Path 1
   From: reset
-  To: data_source_0/data_index[0]:PRE
+  To: data_source_0/data_index[4]:CLR
   data required time                             N/C
-  data arrival time                          -   3.707
+  data arrival time                          -   3.709
   slack                                          N/C
   ________________________________________________________
   Data arrival time calculation
@@ -802,23 +798,23 @@ Expanded Path 1
   1.560                        reset_pad/U0/U1:A (r)
                +     1.016          cell: ADLIB:CLKIO
   2.576                        reset_pad/U0/U1:Y (r)
-               +     1.131          net: reset_c
-  3.707                        data_source_0/data_index[0]:PRE (r)
+               +     1.133          net: reset_c
+  3.709                        data_source_0/data_index[4]:CLR (r)
                                     
-  3.707                        data arrival time
+  3.709                        data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          modulator_0/output_signal:Q
                +     0.000          Clock source
   N/C                          modulator_0/output_signal:Q (r)
-               +     3.056          net: modulator_0/output_signal_i
+               +     1.933          net: modulator_0/output_signal_i
   N/C                          modulator_0/output_signal_RNI2QGD:A (r)
                +     1.869          cell: ADLIB:CLKINT
   N/C                          modulator_0/output_signal_RNI2QGD:Y (r)
-               +     1.149          net: modulator_0_output_signal
-  N/C                          data_source_0/data_index[0]:CLK (r)
-               -     0.235          Library recovery time: ADLIB:DFN1P0
-  N/C                          data_source_0/data_index[0]:PRE
+               +     1.140          net: modulator_0_output_signal
+  N/C                          data_source_0/data_index[4]:CLK (r)
+               -     0.235          Library recovery time: ADLIB:DFN1C0
+  N/C                          data_source_0/data_index[4]:CLR
 
 
 END SET External Recovery
@@ -840,89 +836,89 @@ SET Register to Register
 Path 1
   From:                        main_clock_0/counter[3]:CLK
   To:                          main_clock_0/counter[0]:D
-  Delay (ns):                  12.925
+  Delay (ns):                  12.086
   Slack (ns):
-  Arrival (ns):                14.078
+  Arrival (ns):                13.248
   Required (ns):
-  Setup (ns):                  1.112
-  Minimum Period (ns):         13.996
+  Setup (ns):                  1.169
+  Minimum Period (ns):         13.252
 
 Path 2
-  From:                        main_clock_0/counter[1]:CLK
+  From:                        main_clock_0/counter[3]:CLK
   To:                          main_clock_0/clock_out:D
-  Delay (ns):                  11.198
+  Delay (ns):                  11.719
   Slack (ns):
-  Arrival (ns):                12.351
+  Arrival (ns):                12.881
   Required (ns):
-  Setup (ns):                  1.112
-  Minimum Period (ns):         12.246
+  Setup (ns):                  1.169
+  Minimum Period (ns):         12.888
 
 Path 3
   From:                        main_clock_0/counter[3]:CLK
-  To:                          main_clock_0/clock_out:D
-  Delay (ns):                  10.829
+  To:                          main_clock_0/counter[7]:D
+  Delay (ns):                  10.248
   Slack (ns):
-  Arrival (ns):                11.982
+  Arrival (ns):                11.410
   Required (ns):
   Setup (ns):                  1.169
-  Minimum Period (ns):         11.934
+  Minimum Period (ns):         11.433
 
 Path 4
-  From:                        main_clock_0/counter[5]:CLK
-  To:                          main_clock_0/clock_out:D
-  Delay (ns):                  10.706
+  From:                        main_clock_0/counter[1]:CLK
+  To:                          main_clock_0/counter[5]:D
+  Delay (ns):                  8.381
   Slack (ns):
-  Arrival (ns):                11.852
+  Arrival (ns):                9.546
   Required (ns):
-  Setup (ns):                  1.112
-  Minimum Period (ns):         11.747
+  Setup (ns):                  1.169
+  Minimum Period (ns):         9.549
 
 Path 5
   From:                        main_clock_0/counter[3]:CLK
-  To:                          main_clock_0/counter[7]:D
-  Delay (ns):                  10.465
+  To:                          main_clock_0/counter[5]:D
+  Delay (ns):                  8.282
   Slack (ns):
-  Arrival (ns):                11.618
+  Arrival (ns):                9.444
   Required (ns):
-  Setup (ns):                  1.169
-  Minimum Period (ns):         11.593
+  Setup (ns):                  1.112
+  Minimum Period (ns):         9.390
 
 
 Expanded Path 1
   From: main_clock_0/counter[3]:CLK
   To: main_clock_0/counter[0]:D
   data required time                             N/C
-  data arrival time                          -   14.078
+  data arrival time                          -   13.248
   slack                                          N/C
   ________________________________________________________
   Data arrival time calculation
   0.000                        pll_core_0/Core:GLA
                +     0.000          Clock source
   0.000                        pll_core_0/Core:GLA (r)
-               +     1.153          net: GLA
-  1.153                        main_clock_0/counter[3]:CLK (r)
-               +     1.049          cell: ADLIB:DFN1C0
-  2.202                        main_clock_0/counter[3]:Q (r)
-               +     5.339          net: main_clock_0/counter[3]
-  7.541                        main_clock_0/counter_RNIFVEB1[7]:C (r)
-               +     1.510          cell: ADLIB:NOR3
-  9.051                        main_clock_0/counter_RNIFVEB1[7]:Y (f)
-               +     1.610          net: main_clock_0/counter14_3
-  10.661                       main_clock_0/counter_RNO[0]:B (f)
-               +     3.040          cell: ADLIB:AOI1
-  13.701                       main_clock_0/counter_RNO[0]:Y (r)
-               +     0.377          net: main_clock_0/counter_3[0]
-  14.078                       main_clock_0/counter[0]:D (r)
+               +     1.162          net: GLA
+  1.162                        main_clock_0/counter[3]:CLK (r)
+               +     1.606          cell: ADLIB:DFN1C0
+  2.768                        main_clock_0/counter[3]:Q (f)
+               +     3.024          net: main_clock_0/counter[3]
+  5.792                        main_clock_0/counter_RNIFVEB1[7]:C (f)
+               +     3.538          cell: ADLIB:NOR3
+  9.330                        main_clock_0/counter_RNIFVEB1[7]:Y (r)
+               +     2.148          net: main_clock_0/counter14_3
+  11.478                       main_clock_0/counter_RNO[0]:B (r)
+               +     1.472          cell: ADLIB:AOI1
+  12.950                       main_clock_0/counter_RNO[0]:Y (f)
+               +     0.298          net: main_clock_0/counter_3[0]
+  13.248                       main_clock_0/counter[0]:D (f)
                                     
-  14.078                       data arrival time
+  13.248                       data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          pll_core_0/Core:GLA
                +     0.000          Clock source
   N/C                          pll_core_0/Core:GLA (r)
-               +     1.194          net: GLA
+               +     1.165          net: GLA
   N/C                          main_clock_0/counter[0]:CLK (r)
-               -     1.112          Library setup time: ADLIB:DFN1C0
+               -     1.169          Library setup time: ADLIB:DFN1C0
   N/C                          main_clock_0/counter[0]:D
 
 
@@ -942,87 +938,96 @@ SET Clock to Output
 
 Path 1
   From:                        main_clock_0/clock_out:CLK
-  To:                          output_signal[1]
-  Delay (ns):                  17.609
+  To:                          output_signal[10]
+  Delay (ns):                  17.637
   Slack (ns):
-  Arrival (ns):                18.826
+  Arrival (ns):                18.799
   Required (ns):
-  Clock to Out (ns):           18.826
+  Clock to Out (ns):           18.799
 
 Path 2
   From:                        main_clock_0/clock_out:CLK
-  To:                          output_signal[0]
-  Delay (ns):                  17.396
+  To:                          output_signal[2]
+  Delay (ns):                  16.712
   Slack (ns):
-  Arrival (ns):                18.613
+  Arrival (ns):                17.874
   Required (ns):
-  Clock to Out (ns):           18.613
+  Clock to Out (ns):           17.874
 
 Path 3
   From:                        main_clock_0/clock_out:CLK
-  To:                          output_signal[3]
-  Delay (ns):                  14.899
+  To:                          output_signal[9]
+  Delay (ns):                  16.650
   Slack (ns):
-  Arrival (ns):                16.116
+  Arrival (ns):                17.812
   Required (ns):
-  Clock to Out (ns):           16.116
+  Clock to Out (ns):           17.812
 
 Path 4
   From:                        main_clock_0/clock_out:CLK
-  To:                          output_signal[2]
-  Delay (ns):                  14.721
+  To:                          output_signal[14]
+  Delay (ns):                  16.561
   Slack (ns):
-  Arrival (ns):                15.938
+  Arrival (ns):                17.723
   Required (ns):
-  Clock to Out (ns):           15.938
+  Clock to Out (ns):           17.723
+
+Path 5
+  From:                        main_clock_0/clock_out:CLK
+  To:                          output_signal[15]
+  Delay (ns):                  16.508
+  Slack (ns):
+  Arrival (ns):                17.670
+  Required (ns):
+  Clock to Out (ns):           17.670
 
 
 Expanded Path 1
   From: main_clock_0/clock_out:CLK
-  To: output_signal[1]
+  To: output_signal[10]
   data required time                             N/C
-  data arrival time                          -   18.826
+  data arrival time                          -   18.799
   slack                                          N/C
   ________________________________________________________
   Data arrival time calculation
   0.000                        pll_core_0/Core:GLA
                +     0.000          Clock source
   0.000                        pll_core_0/Core:GLA (r)
-               +     1.217          net: GLA
-  1.217                        main_clock_0/clock_out:CLK (r)
+               +     1.162          net: GLA
+  1.162                        main_clock_0/clock_out:CLK (r)
                +     1.606          cell: ADLIB:DFN1C0
-  2.823                        main_clock_0/clock_out:Q (f)
-               +     1.297          net: main_clock_0/clock_out_i
-  4.120                        main_clock_0/clock_out_RNIG44:A (f)
+  2.768                        main_clock_0/clock_out:Q (f)
+               +     1.602          net: main_clock_0/clock_out_i
+  4.370                        main_clock_0/clock_out_RNIG44:A (f)
                +     1.869          cell: ADLIB:CLKINT
-  5.989                        main_clock_0/clock_out_RNIG44:Y (f)
-               +     1.101          net: main_clock_0_clock_out
-  7.090                        baseband_signal_0/tag_data_output_1[1]:A (f)
-               +     0.989          cell: ADLIB:XNOR2
-  8.079                        baseband_signal_0/tag_data_output_1[1]:Y (r)
-               +     1.859          net: baseband_signal_0_tag_data_output[1]
-  9.938                        switching_circuit_0/out_signal_switch_1[1]:B (r)
-               +     1.695          cell: ADLIB:AO1
-  11.633                       switching_circuit_0/out_signal_switch_1[1]:Y (r)
-               +     2.718          net: output_signal_c[1]
-  14.351                       output_signal_pad[1]/U0/U1:D (r)
-               +     1.371          cell: ADLIB:IOTRI_OB_EB
-  15.722                       output_signal_pad[1]/U0/U1:DOUT (r)
-               +     0.000          net: output_signal_pad[1]/U0/NET1
-  15.722                       output_signal_pad[1]/U0/U0:D (r)
-               +     3.104          cell: ADLIB:IOPAD_TRI
-  18.826                       output_signal_pad[1]/U0/U0:PAD (r)
-               +     0.000          net: output_signal[1]
-  18.826                       output_signal[1] (r)
+  6.239                        main_clock_0/clock_out_RNIG44:Y (f)
+               +     1.087          net: main_clock_0_clock_out
+  7.326                        switching_circuit_0/un100_out_signal_switch_0:B (f)
+               +     1.283          cell: ADLIB:NOR2B
+  8.609                        switching_circuit_0/un100_out_signal_switch_0:Y (f)
+               +     0.409          net: switching_circuit_0/un100_out_signal_switch_0
+  9.018                        switching_circuit_0/out_signal_switch_1[10]:A (f)
+               +     1.154          cell: ADLIB:MX2
+  10.172                       switching_circuit_0/out_signal_switch_1[10]:Y (f)
+               +     3.725          net: output_signal_c[10]
+  13.897                       output_signal_pad[10]/U0/U1:D (f)
+               +     1.402          cell: ADLIB:IOTRI_OB_EB
+  15.299                       output_signal_pad[10]/U0/U1:DOUT (f)
+               +     0.000          net: output_signal_pad[10]/U0/NET1
+  15.299                       output_signal_pad[10]/U0/U0:D (f)
+               +     3.500          cell: ADLIB:IOPAD_TRI
+  18.799                       output_signal_pad[10]/U0/U0:PAD (f)
+               +     0.000          net: output_signal[10]
+  18.799                       output_signal[10] (f)
                                     
-  18.826                       data arrival time
+  18.799                       data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          pll_core_0/Core:GLA
                +     0.000          Clock source
   N/C                          pll_core_0/Core:GLA (r)
                                     
-  N/C                          output_signal[1] (r)
+  N/C                          output_signal[10] (f)
 
 
 END SET Clock to Output
@@ -1041,60 +1046,60 @@ SET External Recovery
 
 Path 1
   From:                        reset
-  To:                          main_clock_0/counter[3]:CLR
-  Delay (ns):                  3.725
+  To:                          main_clock_0/clock_out:CLR
+  Delay (ns):                  3.781
   Slack (ns):
-  Arrival (ns):                3.725
+  Arrival (ns):                3.781
   Required (ns):
   Recovery (ns):               0.235
-  External Recovery (ns):      2.807
+  External Recovery (ns):      2.854
 
 Path 2
   From:                        reset
-  To:                          main_clock_0/counter[1]:CLR
-  Delay (ns):                  3.725
+  To:                          main_clock_0/counter[3]:CLR
+  Delay (ns):                  3.781
   Slack (ns):
-  Arrival (ns):                3.725
+  Arrival (ns):                3.781
   Required (ns):
   Recovery (ns):               0.235
-  External Recovery (ns):      2.807
+  External Recovery (ns):      2.854
 
 Path 3
   From:                        reset
-  To:                          main_clock_0/counter[5]:CLR
-  Delay (ns):                  3.710
+  To:                          main_clock_0/counter[0]:CLR
+  Delay (ns):                  3.774
   Slack (ns):
-  Arrival (ns):                3.710
+  Arrival (ns):                3.774
   Required (ns):
   Recovery (ns):               0.235
-  External Recovery (ns):      2.799
+  External Recovery (ns):      2.844
 
 Path 4
   From:                        reset
-  To:                          main_clock_0/counter[6]:CLR
-  Delay (ns):                  3.710
+  To:                          main_clock_0/counter[2]:CLR
+  Delay (ns):                  3.774
   Slack (ns):
-  Arrival (ns):                3.710
+  Arrival (ns):                3.774
   Required (ns):
   Recovery (ns):               0.235
-  External Recovery (ns):      2.799
+  External Recovery (ns):      2.844
 
 Path 5
   From:                        reset
   To:                          main_clock_0/counter[7]:CLR
-  Delay (ns):                  3.754
+  Delay (ns):                  3.719
   Slack (ns):
-  Arrival (ns):                3.754
+  Arrival (ns):                3.719
   Required (ns):
   Recovery (ns):               0.235
-  External Recovery (ns):      2.795
+  External Recovery (ns):      2.808
 
 
 Expanded Path 1
   From: reset
-  To: main_clock_0/counter[3]:CLR
+  To: main_clock_0/clock_out:CLR
   data required time                             N/C
-  data arrival time                          -   3.725
+  data arrival time                          -   3.781
   slack                                          N/C
   ________________________________________________________
   Data arrival time calculation
@@ -1107,19 +1112,19 @@ Expanded Path 1
   1.560                        reset_pad/U0/U1:A (r)
                +     1.016          cell: ADLIB:CLKIO
   2.576                        reset_pad/U0/U1:Y (r)
-               +     1.149          net: reset_c
-  3.725                        main_clock_0/counter[3]:CLR (r)
+               +     1.205          net: reset_c
+  3.781                        main_clock_0/clock_out:CLR (r)
                                     
-  3.725                        data arrival time
+  3.781                        data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          pll_core_0/Core:GLA
                +     0.000          Clock source
   N/C                          pll_core_0/Core:GLA (r)
-               +     1.153          net: GLA
-  N/C                          main_clock_0/counter[3]:CLK (r)
+               +     1.162          net: GLA
+  N/C                          main_clock_0/clock_out:CLK (r)
                -     0.235          Library recovery time: ADLIB:DFN1C0
-  N/C                          main_clock_0/counter[3]:CLR
+  N/C                          main_clock_0/clock_out:CLR
 
 
 END SET External Recovery

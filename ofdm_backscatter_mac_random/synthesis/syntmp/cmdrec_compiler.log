@@ -1,14 +1,14 @@
 C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe  -osyn  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synwork\top_comp.srs  -top  top  -hdllog  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\top_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\  -I C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib   -v2001  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v  -encrypt  -pro  -dmgen  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\baseband_signal.v -lib work Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v -lib work Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\main_clock.v -lib work Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\modulator.v -lib work Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\smartgen\pll_core\pll_core.v -lib work Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\switching_circuit.v -lib work Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\component\work\top\top.v 
-rc:0 success:1 runtime:4
-file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synwork\top_comp.srs|io:o|time:1495841673|size:18445|exec:0
-file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\top_compiler.srr|io:o|time:1495841673|size:112868|exec:0
+rc:0 success:1 runtime:8
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synwork\top_comp.srs|io:o|time:1496190387|size:20834|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\top_compiler.srr|io:o|time:1496190387|size:513267|exec:0
 file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v|io:i|time:1487970450|size:50704|exec:0
 file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\baseband_signal.v|io:i|time:1484760830|size:2888|exec:0
-file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v|io:i|time:1495841638|size:10410|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v|io:i|time:1496190313|size:25399|exec:0
 file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\main_clock.v|io:i|time:1461610935|size:1151|exec:0
 file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\modulator.v|io:i|time:1473371465|size:1640|exec:0
 file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\smartgen\pll_core\pll_core.v|io:i|time:1469208306|size:2711|exec:0
 file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\switching_circuit.v|io:i|time:1484760532|size:3672|exec:0
-file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\component\work\top\top.v|io:i|time:1495841660|size:4557|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\component\work\top\top.v|io:i|time:1496190368|size:4557|exec:0
 file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\c_hdl.exe|io:i|time:1479402364|size:1337856|exec:1
 file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe|io:i|time:1479402568|size:1973248|exec:1

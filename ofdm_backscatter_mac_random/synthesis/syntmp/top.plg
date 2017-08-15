@@ -1,25 +1,24 @@
-@P:  Worst Slack : 956.203
-@P:  main_clock|clock_out_inferred_clock - Estimated Frequency : 22.8 MHz
+@P:  Worst Slack : 955.288
+@P:  main_clock|clock_out_inferred_clock - Estimated Frequency : 22.4 MHz
 @P:  main_clock|clock_out_inferred_clock - Requested Frequency : 1.0 MHz
-@P:  main_clock|clock_out_inferred_clock - Estimated Period : 43.797
+@P:  main_clock|clock_out_inferred_clock - Estimated Period : 44.712
 @P:  main_clock|clock_out_inferred_clock - Requested Period : 1000.000
-@P:  main_clock|clock_out_inferred_clock - Slack : 956.203
-@P:  modulator|output_signal_inferred_clock - Estimated Frequency : 47.5 MHz
+@P:  main_clock|clock_out_inferred_clock - Slack : 955.288
+@P:  modulator|output_signal_inferred_clock - Estimated Frequency : 46.0 MHz
 @P:  modulator|output_signal_inferred_clock - Requested Frequency : 1.0 MHz
-@P:  modulator|output_signal_inferred_clock - Estimated Period : 21.057
+@P:  modulator|output_signal_inferred_clock - Estimated Period : 21.725
 @P:  modulator|output_signal_inferred_clock - Requested Period : 1000.000
-@P:  modulator|output_signal_inferred_clock - Slack : 978.943
+@P:  modulator|output_signal_inferred_clock - Slack : 978.275
 @P:  pll_core|GLA_inferred_clock - Estimated Frequency : 68.2 MHz
 @P:  pll_core|GLA_inferred_clock - Requested Frequency : 1.0 MHz
 @P:  pll_core|GLA_inferred_clock - Estimated Period : 14.667
 @P:  pll_core|GLA_inferred_clock - Requested Period : 1000.000
 @P:  pll_core|GLA_inferred_clock - Slack : 985.333
-@P:  Total Area : 407.0
-@P:  Total Area : 12.0
+@P:  Total Area : 1281.0
+@P:  Total Area : 60.0
 @P:  Total Area : 0.0
 @P:  Total Area : 89.0
 @P:  Total Area : 30.0
-@P:  Total Area : 271.0
-@P:  Total Area : 4.0
-@P:  Total Area : 407.0
-@P:  CPU Time : 0h:00m:02s
+@P:  Total Area : 1101.0
+@P:  Total Area : 1281.0
+@P:  CPU Time : 0h:00m:08s

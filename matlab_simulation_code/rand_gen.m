@@ -5,9 +5,9 @@ used_slots = 0;
 collision_slots = 0;
 
 counter = 0;
-for round=1:250
-    num_tag = 4;
-    num_slot = 8;
+for round=1:25
+    num_tag = 20;
+    num_slot = 26;
 
     slot = zeros(1,num_slot);
 

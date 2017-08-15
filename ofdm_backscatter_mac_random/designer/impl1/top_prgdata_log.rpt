@@ -8,15 +8,15 @@ Info: The design
 Opened an existing Libero design
 Z:/Desktop/tag_mac_experiments/ofdm_backscatter_mac_random/designer/impl1/top.adb.
 
-The Export-map command succeeded ( 00:00:12 )
+The Export-map command succeeded ( 00:00:13 )
 Wrote to the file:
 Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\designer\impl1\top.pdb
-CHECKSUM: 9562
+CHECKSUM: EFC2
 
-The Generate programming file command succeeded ( 00:00:14 )
+The Generate programming file command succeeded ( 00:00:15 )
 Design saved to file
 Z:/Desktop/tag_mac_experiments/ofdm_backscatter_mac_random/designer/impl1/top.adb.
 
-The Execute Script command succeeded ( 00:00:16 )
+The Execute Script command succeeded ( 00:00:19 )
 Design closed.
 

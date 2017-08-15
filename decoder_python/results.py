@@ -4,7 +4,7 @@ import re
 data = open('decoded_data_file.txt', 'r')
 lines_total = data.readlines()
 rown_total = len(lines_total)
-num_tags = 4
+num_tags = 20
 
 div_round = 3
 step = int(rown_total/div_round)

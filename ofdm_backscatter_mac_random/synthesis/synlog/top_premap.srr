@@ -1,4 +1,4 @@
-# Fri May 26 16:34:40 2017
+# Tue May 30 17:26:34 2017
 
 Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -12,13 +12,13 @@ Printing clock  summary report in "Z:\Desktop\tag_mac_experiments\ofdm_backscatt
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
 
 
 
@@ -28,46 +28,31 @@ Clock Summary
 Start                                      Requested     Requested     Clock        Clock                   Clock
 Clock                                      Frequency     Period        Type         Group                   Load 
 -----------------------------------------------------------------------------------------------------------------
-main_clock|clock_out_inferred_clock        1.0 MHz       1000.000      inferred     Inferred_clkgroup_0     223  
-modulator|output_signal_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_1     2128 
+main_clock|clock_out_inferred_clock        1.0 MHz       1000.000      inferred     Inferred_clkgroup_0     239  
+modulator|output_signal_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_1     2146 
 pll_core|GLA_inferred_clock                1.0 MHz       1000.000      inferred     Inferred_clkgroup_2     9    
 =================================================================================================================
 
-@W: MT530 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Found inferred clock main_clock|clock_out_inferred_clock which controls 223 sequential elements including data_source_0.counter[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Found inferred clock modulator|output_signal_inferred_clock which controls 2128 sequential elements including data_source_0.counter[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Found inferred clock main_clock|clock_out_inferred_clock which controls 239 sequential elements including data_source_0.counter[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Found inferred clock modulator|output_signal_inferred_clock which controls 2146 sequential elements including data_source_0.counter[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 @W: MT530 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\main_clock.v":26:0:26:5|Found inferred clock pll_core|GLA_inferred_clock which controls 9 sequential elements including main_clock_0.counter[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
 
-@N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[4] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[5] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[6] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[7] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[8] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[9] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[10] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[11] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[12] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[13] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[14] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[15] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[16] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[17] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[18] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"z:\desktop\tag_mac_experiments\ofdm_backscatter_mac_random\hdl\data_source.v":50:0:50:5|Removing sequential instance output_data[19] (in view: work.data_source(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 110MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 111MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri May 26 16:34:41 2017
+# Tue May 30 17:26:35 2017
 
 ###########################################################]

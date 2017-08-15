@@ -17,14 +17,14 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>main_clock|clock_out_inferred_clock</data>
 <data>1.0 MHz</data>
-<data>22.8 MHz</data>
-<data>956.203</data>
+<data>22.4 MHz</data>
+<data>955.288</data>
 </row>
 <row>
 <data>modulator|output_signal_inferred_clock</data>
 <data>1.0 MHz</data>
-<data>47.5 MHz</data>
-<data>978.943</data>
+<data>46.0 MHz</data>
+<data>978.275</data>
 </row>
 <row>
 <data>pll_core|GLA_inferred_clock</data>

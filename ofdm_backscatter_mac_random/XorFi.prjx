@@ -54,18 +54,18 @@ SIZE="413"
 ENDFILE
 VALUE "<project>\component\work\top\top.cxf,actgen_cxf"
 STATE="utd"
-TIME="1495841661"
+TIME="1496190370"
 SIZE="2850"
 ENDFILE
 VALUE "<project>\component\work\top\top.v,hdl"
 STATE="utd"
-TIME="1495841660"
+TIME="1496190368"
 SIZE="4557"
 PARENT="<project>\component\work\top\top.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\designer\impl1\top.adb,adb"
-STATE="ood"
+STATE="utd"
 TIME="1485385437"
 SIZE="1698304"
 ENDFILE
@@ -75,23 +75,23 @@ TIME="1485385437"
 SIZE="965"
 ENDFILE
 VALUE "<project>\designer\impl1\top.pdb,pdb"
-STATE="ood"
-TIME="1495840388"
-SIZE="53609"
+STATE="utd"
+TIME="1496190690"
+SIZE="73699"
 ENDFILE
 VALUE "<project>\designer\impl1\top_ba.sdf,ba_sdf"
-STATE="ood"
+STATE="utd"
 TIME="1485385406"
 SIZE="366044"
 ENDFILE
 VALUE "<project>\designer\impl1\top_ba.v,ba_hdl"
-STATE="ood"
-TIME="1495840352"
-SIZE="121221"
+STATE="utd"
+TIME="1496190639"
+SIZE="333331"
 ENDFILE
 VALUE "<project>\designer\impl1\top_ba_log.rpt,log"
 STATE="utd"
-TIME="1495840352"
+TIME="1496190640"
 SIZE="804"
 ENDFILE
 VALUE "<project>\designer\impl1\top_compile_log.rpt,log"
@@ -111,12 +111,12 @@ SIZE="2597"
 ENDFILE
 VALUE "<project>\designer\impl1\top_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1495840336"
+TIME="1496190607"
 SIZE="2515"
 ENDFILE
 VALUE "<project>\designer\impl1\top_prgdata_log.rpt,log"
 STATE="utd"
-TIME="1495840388"
+TIME="1496190691"
 SIZE="755"
 ENDFILE
 VALUE "<project>\designer\impl1\top_timingconstraints_log.rpt,log"
@@ -126,7 +126,7 @@ SIZE="364"
 ENDFILE
 VALUE "<project>\designer\impl1\top_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1495840366"
+TIME="1496190653"
 SIZE="1154"
 ENDFILE
 VALUE "<project>\hdl\baseband_signal.v,hdl"
@@ -156,8 +156,8 @@ SIZE="2611"
 ENDFILE
 VALUE "<project>\hdl\data_source.v,hdl"
 STATE="utd"
-TIME="1495841638"
-SIZE="10410"
+TIME="1496190313"
+SIZE="25399"
 ENDFILE
 VALUE "<project>\hdl\dbpsk_modulator.v,hdl"
 STATE="utd"
@@ -313,7 +313,7 @@ TIME="1484007129"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\top.edn,syn_edn"
-STATE="ood"
+STATE="utd"
 TIME="1485385330"
 SIZE="343219"
 ENDFILE
@@ -328,7 +328,7 @@ TIME="1457226623"
 SIZE="19556"
 ENDFILE
 VALUE "<project>\synthesis\top_sdc.sdc,syn_sdc"
-STATE="ood"
+STATE="utd"
 TIME="1485385330"
 SIZE="310"
 ENDFILE
@@ -348,7 +348,10 @@ VALUE "<project>\stimulus\top_tb.v,tb_hdl"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
+LiberoState=Post_Layout
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\top.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -357,6 +360,10 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\top_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\top_report_pin_bynumber.txt,log"
 ENDLIST
 ENDLIST
 ENDLIST
@@ -468,7 +475,10 @@ ENDLIST
 LIST ProjectState5.1
 LIST "top::work"
 LIST Impl1
+LiberoState=Post_Layout
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\top.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -505,7 +515,7 @@ HDL;hdl\baseband_signal.v;0
 HDL;hdl\tag_ant_control.v;0
 HDL;hdl\modulator.v;0
 StartPage;StartPage;0
-ACTIVEVIEW;top
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "baseband_signal::work","hdl\baseband_signal.v","FALSE","FALSE"

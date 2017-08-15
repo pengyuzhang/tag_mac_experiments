@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Fri May 26 16:36:01 2017 ***************************************************************************
+                          Tue May 30 17:30:05 2017 ***************************************************************************
 
 Product: Designer
 Release: v11.8
 Version: 11.8.0.26
 File Name: Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\designer\impl1\top.adb
 Design Name: Top  Design State: layout
-Last Saved: Fri May 26 16:35:22 2017
+Last Saved: Tue May 30 17:28:33 2017
 
 ***** Device Data **************************************************
 
@@ -22,7 +22,7 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Fri May 26 16:35:17 2017:
+Source File(s) Imported on Tue May 30 17:28:25 2017:
         Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.edn
 
 
@@ -90,9 +90,9 @@ Optimized macros:
   - Buffers:                1
   - Inverters:              0
   - Tieoff:                 0
-  - Logic combining:        7
+  - Logic combining:        26
 
-    Total macros optimized  8
+    Total macros optimized  27
 
 There were 0 error(s) and 5 warning(s) in this design.
 =====================================================================
@@ -106,9 +106,9 @@ There were 0 error(s) and 0 warning(s).
 Compile report:
 ===============
 
-    CORE                       Used:    400  Total:   6144   (6.51%)
+    CORE                       Used:   1255  Total:   6144   (20.43%)
     IO (W/ clocks)             Used:     25  Total:     68   (36.76%)
-    GLOBAL (Chip+Quadrant)     Used:      4  Total:     18   (22.22%)
+    GLOBAL (Chip+Quadrant)     Used:      5  Total:     18   (27.78%)
     PLL                        Used:      1  Total:      1   (100.00%)
     RAM/FIFO                   Used:      0  Total:      8   (0.00%)
     Low Static ICC             Used:      0  Total:      1   (0.00%)
@@ -119,7 +119,7 @@ Global Information:
 
     Type            | Used   | Total
     ----------------|--------|--------------
-    Chip global     | 4      | 6  (66.67%)*
+    Chip global     | 5      | 6  (83.33%)*
     Quadrant global | 0      | 12 (0.00%)
 
     (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
@@ -130,8 +130,8 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 302          | 302
-    SEQ     | 98           | 98
+    COMB    | 1004         | 1004
+    SEQ     | 251          | 251
 
 I/O Function:
 
@@ -163,14 +163,17 @@ Net information report:
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    95      SET/RESET_NET Net   : reset_c
-                          Driver: reset_pad
-                          Source: NETLIST
-    87      CLK_NET       Net   : main_clock_0_clock_out
+    270     CLK_NET       Net   : main_clock_0_clock_out
                           Driver: main_clock_0/clock_out_RNIG44
                           Source: NETLIST
-    71      INT_NET       Net   : modulator_0_output_signal
+    232     SET/RESET_NET Net   : reset_c
+                          Driver: reset_pad
+                          Source: NETLIST
+    211     INT_NET       Net   : modulator_0_output_signal
                           Driver: modulator_0/output_signal_RNI2QGD
+                          Source: NETLIST
+    171     INT_NET       Net   : data_source_0/N_29
+                          Driver: data_source_0/counter_RNIK0AI3_0[1]
                           Source: NETLIST
     9       CLK_NET       Net   : GLA
                           Driver: pll_core_0/Core
@@ -179,50 +182,50 @@ The following nets have been assigned to a chip global resource:
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    22      INT_NET       Net   : data_source_0/data_index[6]
-                          Driver: data_source_0/data_index[6]
+    23      INT_NET       Net   : data_source_0/data_index[2]
+                          Driver: data_source_0/data_index[2]
+    22      INT_NET       Net   : data_source_0/N_1159
+                          Driver: data_source_0/data_index_RNICN6D[9]
     22      INT_NET       Net   : data_source_0/data_index[5]
                           Driver: data_source_0/data_index[5]
-    21      INT_NET       Net   : data_source_0/data_index_0[3]
-                          Driver: data_source_0/data_index_0[3]
-    21      INT_NET       Net   : data_source_0/data_index[1]
-                          Driver: data_source_0/data_index[1]
+    21      INT_NET       Net   : data_source_0/data_index[3]
+                          Driver: data_source_0/data_index[3]
+    21      INT_NET       Net   : data_source_0/data_index[8]
+                          Driver: data_source_0/data_index[8]
+    21      INT_NET       Net   : data_source_0/data_index[6]
+                          Driver: data_source_0/data_index[6]
+    21      INT_NET       Net   : data_source_0/N_1133
+                          Driver: data_source_0/data_index_RNI3LP8[1]
     20      INT_NET       Net   : AND2_0_Y
                           Driver: AND2_0
-    20      INT_NET       Net   : data_source_0/data_index[3]
-                          Driver: data_source_0/data_index[3]
-    20      INT_NET       Net   : data_source_0/data_index[7]
-                          Driver: data_source_0/data_index[7]
-    18      INT_NET       Net   : data_source_0/N_29_0
-                          Driver: data_source_0/counter_RNIK0AI3[1]
-    18      INT_NET       Net   : data_source_0/N_29
-                          Driver: data_source_0/counter_RNIK0AI3_0[1]
-    17      INT_NET       Net   : modulator_0/clock_countere
-                          Driver: modulator_0/counter_RNIBT613[1]
+    20      INT_NET       Net   : data_source_0/N_1160
+                          Driver: data_source_0/data_index_RNICN6D_1[9]
+    20      INT_NET       Net   : data_source_0/tag_control_sig_1_sqmuxa
+                          Driver: data_source_0/tag_control_sig_1_sqmuxa
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    22      INT_NET       Net   : data_source_0/data_index[6]
-                          Driver: data_source_0/data_index[6]
+    23      INT_NET       Net   : data_source_0/data_index[2]
+                          Driver: data_source_0/data_index[2]
+    22      INT_NET       Net   : data_source_0/N_1159
+                          Driver: data_source_0/data_index_RNICN6D[9]
     22      INT_NET       Net   : data_source_0/data_index[5]
                           Driver: data_source_0/data_index[5]
-    21      INT_NET       Net   : data_source_0/data_index_0[3]
-                          Driver: data_source_0/data_index_0[3]
-    21      INT_NET       Net   : data_source_0/data_index[1]
-                          Driver: data_source_0/data_index[1]
+    21      INT_NET       Net   : data_source_0/data_index[3]
+                          Driver: data_source_0/data_index[3]
+    21      INT_NET       Net   : data_source_0/data_index[8]
+                          Driver: data_source_0/data_index[8]
+    21      INT_NET       Net   : data_source_0/data_index[6]
+                          Driver: data_source_0/data_index[6]
+    21      INT_NET       Net   : data_source_0/N_1133
+                          Driver: data_source_0/data_index_RNI3LP8[1]
     20      INT_NET       Net   : AND2_0_Y
                           Driver: AND2_0
-    20      INT_NET       Net   : data_source_0/data_index[3]
-                          Driver: data_source_0/data_index[3]
-    20      INT_NET       Net   : data_source_0/data_index[7]
-                          Driver: data_source_0/data_index[7]
-    18      INT_NET       Net   : data_source_0/N_29_0
-                          Driver: data_source_0/counter_RNIK0AI3[1]
-    18      INT_NET       Net   : data_source_0/N_29
-                          Driver: data_source_0/counter_RNIK0AI3_0[1]
-    17      INT_NET       Net   : modulator_0/clock_countere
-                          Driver: modulator_0/counter_RNIBT613[1]
+    20      INT_NET       Net   : data_source_0/N_1160
+                          Driver: data_source_0/data_index_RNICN6D_1[9]
+    20      INT_NET       Net   : data_source_0/tag_control_sig_1_sqmuxa
+                          Driver: data_source_0/tag_control_sig_1_sqmuxa
 ====================
 Flash*Freeze report:
 ====================
@@ -254,25 +257,25 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Fri May 26 16:35:44 2017
+Timing-driven Placer Started: Tue May 30 17:29:25 2017
 
-Placer Finished: Fri May 26 16:35:47 2017
-Total Placer CPU Time:     00:00:03
+Placer Finished: Tue May 30 17:29:40 2017
+Total Placer CPU Time:     00:00:15
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: top                             Started: Fri May 26 16:35:50 2017
+Design: top                             Started: Tue May 30 17:29:43 2017
 
  
 
 Timing-driven Router completed successfully.
 
 Design: top                             
-Finished: Fri May 26 16:35:58 2017
-Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:08
-Total Memory Usage: 158.3 Mbytes
+Finished: Tue May 30 17:30:00 2017
+Total CPU Time:     00:00:13            Total Elapsed Time: 00:00:17
+Total Memory Usage: 169.4 Mbytes
                         o - o - o - o - o - o
 
 

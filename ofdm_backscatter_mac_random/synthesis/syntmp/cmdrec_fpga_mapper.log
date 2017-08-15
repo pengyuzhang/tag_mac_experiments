@@ -1,15 +1,15 @@
 C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis   -part AGLN250V2  -package VQFP100  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 0 -RWCheckOnRam 0 -summaryfile Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\report\top_fpga_mapper.xml  -top_level_module  top  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.edn   -freq 1.000   Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synwork\top_prem.srd  -sap  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.sap  -otap  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.tap  -omap  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v  -sap  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.sap  -ologparam  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\syntmp\top.plg  -osyn  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.srm  -prjdir  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\  -prjname  top_syn  -log  Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\top_fpga_mapper.srr 
-rc:1 success:1 runtime:6
+rc:1 success:1 runtime:15
 file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\scratchproject.prs|io:o|time:1495834872|size:2428|exec:0
-file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.edn|io:o|time:1495841687|size:230469|exec:0
-file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synwork\top_prem.srd|io:i|time:1495841681|size:22409|exec:0
-file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.sap|io:o|time:1495841681|size:5598|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.edn|io:o|time:1496190409|size:628685|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synwork\top_prem.srd|io:i|time:1496190394|size:29500|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.sap|io:o|time:1496190395|size:6915|exec:0
 file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.tap|io:o|time:0|size:0|exec:0
-file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.map|io:o|time:1495841687|size:28|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.map|io:o|time:1496190410|size:28|exec:0
 file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v|io:i|time:1487970450|size:50704|exec:0
-file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.sap|io:o|time:1495841681|size:5598|exec:0
-file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\syntmp\top.plg|io:o|time:1495841687|size:1277|exec:0
-file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.srm|io:o|time:1495841686|size:69042|exec:0
-file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\top_fpga_mapper.srr|io:o|time:1495841687|size:121018|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.sap|io:o|time:1496190395|size:6915|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\syntmp\top.plg|io:o|time:1496190410|size:1257|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\top.srm|io:o|time:1496190409|size:69402|exec:0
+file:Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\top_fpga_mapper.srr|io:o|time:1496190410|size:44818|exec:0
 file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479403034|size:10978304|exec:1
 file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479404440|size:14125056|exec:1

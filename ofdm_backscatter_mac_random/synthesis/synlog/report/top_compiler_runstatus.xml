@@ -14,11 +14,11 @@ The file contains the job information from compiler to be displayed as part of t
   </job_status>
 <job_info> 
 			<info name="Notes">
-  <data>41</data>
+  <data>23</data>
   <report_link name="more"><data>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\report\top_compiler_notes.txt</data></report_link>
   </info>
 			<info name="Warnings">
-  <data>451</data>
+  <data>2225</data>
   <report_link name="more"><data>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\report\top_compiler_warnings.txt</data></report_link>
   </info>
 			<info name="Errors">
@@ -29,13 +29,13 @@ The file contains the job information from compiler to be displayed as part of t
   <data>-</data>
   </info>
 			<info name="Real Time">
-  <data>00h:00m:02s</data>
+  <data>00h:00m:06s</data>
   </info>
 			<info name="Peak Memory">
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
-  <data type="timestamp">1495841673</data>
+  <data type="timestamp">1496190387</data>
   </info>
 			</job_info>
 </job_run_status>

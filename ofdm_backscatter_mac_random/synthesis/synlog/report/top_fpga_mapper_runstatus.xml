@@ -13,7 +13,7 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>157</data>
+<data>23</data>
 <report_link name="more">
 <data>Z:\Desktop\tag_mac_experiments\ofdm_backscatter_mac_random\synthesis\synlog\report\top_fpga_mapper_notes.txt</data>
 </report_link>
@@ -31,16 +31,16 @@ The file contains the job information from mapper to be displayed as part of the
 </report_link>
 </info>
 <info name="CPU Time">
-<data>0h:00m:02s</data>
+<data>0h:00m:08s</data>
 </info>
 <info name="Real Time">
-<data>0h:00m:02s</data>
+<data>0h:00m:11s</data>
 </info>
 <info name="Peak Memory">
-<data>113MB</data>
+<data>160MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1495841687</data>
+<data type="timestamp">1496190410</data>
 </info>
 </job_info>
 </job_run_status>
